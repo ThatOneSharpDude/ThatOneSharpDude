@@ -1,0 +1,46 @@
+name: 📊 Metrics (3D isometric calendar)
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # daily
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Generate github-metrics.svg
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ThatOneSharpDude
+          filename: github-metrics.svg
+          template: classic
+          base: header
+          config_timezone: America/New_York
+
+          # ── the showpiece: 3D isometric contribution calendar ──
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # languages
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+
+          # coding habits + facts (charts of when/how you commit)
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+
+          # achievements + recent activity
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_activity: yes
+          plugin_activity_limit: 4
