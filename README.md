@@ -1,4 +1,6 @@
-<!-- ════════════════════ ThatOneSharpDude · profile README ════════════════════ -->
+<!-- ════════════════ ThatOneSharpDude · profile README ════════════════ -->
+<!-- Bulletproof build: heavy/flaky stat services replaced by the committed
+     github-metrics.svg + snake (static, GitHub-served). Only fast CDNs remain. -->
 
 <!-- WAVING NEON HEADER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4ff,45:7b2ff7,100:00ff9c&height=210&section=header&text=%24%20whoami&fontSize=66&fontColor=ffffff&fontAlignY=36&desc=quant%20%E2%9A%A1%20builder%20%E2%9A%A1%20edge-hunter&descAlignY=58&descSize=20&animation=fadeIn" alt="header" />
@@ -10,9 +12,9 @@
   </a>
 </div>
 
-<!-- STATUS BADGES -->
+<!-- STATUS BADGES (shields.io — rock solid) -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ThatOneSharpDude&label=visitors&color=00ff9c&style=for-the-badge&labelColor=0d1117" alt="views" />
+  <img src="https://komarev.com/ghpvc/?username=ThatOneSharpDude&label=visitors&color=00ff9c&style=for-the-badge&labelColor=0d1117" alt="visitors" />
   <img src="https://img.shields.io/github/followers/ThatOneSharpDude?label=followers&style=for-the-badge&color=00b4ff&labelColor=0d1117" alt="followers" />
   <img src="https://img.shields.io/badge/focus-edge%20detection-7b2ff7?style=for-the-badge&labelColor=0d1117" alt="focus" />
   <img src="https://img.shields.io/badge/status-shipping-00ff9c?style=for-the-badge&labelColor=0d1117" alt="status" />
@@ -20,7 +22,7 @@
 
 <br/>
 
-<!-- ./whoami -->
+<!-- ./whoami — native code blocks, always render -->
 <table>
 <tr>
 <td width="58%" valign="top">
@@ -61,7 +63,7 @@ class Fox:
 </tr>
 </table>
 
-<!-- TECH ARSENAL -->
+<!-- TECH ARSENAL — skillicons + shields, both fast/reliable -->
 ### `~/ tech-arsenal`
 
 <div align="center">
@@ -70,70 +72,30 @@ class Fox:
 
 <br/><br/>
 
-![pandas](https://img.shields.io/badge/pandas-130654?style=flat-square&logo=pandas&logoColor=white)
-![numpy](https://img.shields.io/badge/numpy-4d77cf?style=flat-square&logo=numpy&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord_Bots-5865f2?style=flat-square&logo=discord&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-d97757?style=flat-square&logo=anthropic&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362d59?style=flat-square&logo=sentry&logoColor=white)
-![MonteCarlo](https://img.shields.io/badge/Monte_Carlo-00b4ff?style=flat-square&logo=tabnine&logoColor=white)
+<img src="https://img.shields.io/badge/pandas-130654?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/numpy-4d77cf?style=flat-square&logo=numpy&logoColor=white" alt="numpy" />
+<img src="https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white" alt="stripe" />
+<img src="https://img.shields.io/badge/Discord_Bots-5865f2?style=flat-square&logo=discord&logoColor=white" alt="discord" />
+<img src="https://img.shields.io/badge/Anthropic_Claude-d97757?style=flat-square&logo=anthropic&logoColor=white" alt="claude" />
+<img src="https://img.shields.io/badge/Sentry-362d59?style=flat-square&logo=sentry&logoColor=white" alt="sentry" />
+<img src="https://img.shields.io/badge/Monte_Carlo-00b4ff?style=flat-square&logo=tabnine&logoColor=white" alt="montecarlo" />
 
 </div>
 
-<!-- GITHUB STATS -->
+<!-- TELEMETRY CENTERPIECE — the committed metrics SVG (static = always loads).
+     Holds: stats header, 3D isometric calendar, languages, habits, achievements, activity. -->
 ### `~/ telemetry`
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ThatOneSharpDude&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00ff9c&icon_color=00b4ff&text_color=c9d1d9&ring_color=7b2ff7" alt="stats" />
-  <img height="170" src="https://streak-stats.demolab.com/?user=ThatOneSharpDude&hide_border=true&background=0d1117&stroke=7b2ff7&ring=00b4ff&fire=00ff9c&currStreakLabel=00ff9c&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
+  <img width="92%" src="github-metrics.svg" alt="github metrics — stats, 3D contribution calendar, languages, habits" />
 </div>
 
+<!-- CONTRIBUTION SNAKE — committed to the output branch, GitHub-served -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThatOneSharpDude&layout=compact&hide_border=true&langs_count=10&bg_color=0d1117&title_color=00ff9c&text_color=c9d1d9" alt="langs" />
-  <img height="165" src="https://github-profile-trophy.vercel.app/?username=ThatOneSharpDude&theme=matrix&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8" alt="trophies" />
+  <img width="92%" alt="contribution snake" src="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake.svg" />
 </div>
 
-<!-- DEEP TELEMETRY: PROFILE SUMMARY CARDS -->
-### `~/ deep-telemetry`
-
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ThatOneSharpDude&theme=github_dark" alt="profile summary" />
-</div>
-
-<div align="center">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ThatOneSharpDude&theme=github_dark" alt="repos per language" />
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ThatOneSharpDude&theme=github_dark" alt="most commit language" />
-</div>
-
-<div align="center">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ThatOneSharpDude&theme=github_dark" alt="stats card" />
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ThatOneSharpDude&theme=github_dark&utcOffset=-4" alt="productive time" />
-</div>
-
-<!-- 3D ISOMETRIC CONTRIBUTION CALENDAR (lowlighter/metrics) -->
-### `~/ isometric-calendar`
-
-<div align="center">
-  <img width="100%" src="github-metrics.svg" alt="isometric metrics — generated by the Metrics action" />
-</div>
-
-<!-- ACTIVITY GRAPH -->
-### `~/ contribution-pulse`
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ThatOneSharpDude&bg_color=0d1117&color=00ff9c&line=00b4ff&point=7b2ff7&area=true&hide_border=true&custom_title=commit%20signal" alt="activity graph" />
-</div>
-
-<!-- CONTRIBUTION SNAKE -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake.svg" />
-  </picture>
-</div>
-
-<!-- WHAT I'M BUILDING -->
+<!-- WHAT I'M BUILDING — native code block -->
 ### `~/ currently-engineering`
 
 ```diff
@@ -144,12 +106,7 @@ class Fox:
 ! always           more pipelines, more automation, more edge
 ```
 
-<!-- DEV QUOTE -->
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote" />
-</div>
-
-<!-- CONNECT -->
+<!-- CONNECT — shields, reliable -->
 ### `~/ connect`
 
 <div align="center">
