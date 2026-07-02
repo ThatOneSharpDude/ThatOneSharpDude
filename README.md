@@ -1,118 +1,131 @@
-<!-- ════════════════ ThatOneSharpDude · profile README ════════════════ -->
-<!-- Bulletproof build: heavy/flaky stat services replaced by the committed
-     github-metrics.svg + snake (static, GitHub-served). Only fast CDNs remain. -->
-
-<!-- WAVING NEON HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4ff,45:7b2ff7,100:00ff9c&height=210&section=header&text=%24%20whoami&fontSize=66&fontColor=ffffff&fontAlignY=36&desc=quant%20%E2%9A%A1%20builder%20%E2%9A%A1%20edge-hunter&descAlignY=58&descSize=20&animation=fadeIn" alt="header" />
-
-<!-- TYPING SVG -->
-<div align="center">
-  <a href="https://github.com/ThatOneSharpDude">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=850&color=00FF9C&center=true&vCenter=true&width=860&height=46&lines=Quantitative+Sports+Bettor+%F0%9F%93%88;AI+Automation+Architect+%F0%9F%A4%96;Full-Stack+Builder+%E2%9A%A1;I+turn+noisy+data+into+provable+edge.;Calibrated.+Systematic.+Relentless." alt="typing" />
-  </a>
-</div>
-
-<!-- STATUS BADGES (shields.io — rock solid) -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ThatOneSharpDude&label=visitors&color=00ff9c&style=for-the-badge&labelColor=0d1117" alt="visitors" />
-  <img src="https://img.shields.io/github/followers/ThatOneSharpDude?label=followers&style=for-the-badge&color=00b4ff&labelColor=0d1117" alt="followers" />
-  <img src="https://img.shields.io/badge/focus-edge%20detection-7b2ff7?style=for-the-badge&labelColor=0d1117" alt="focus" />
-  <img src="https://img.shields.io/badge/status-shipping-00ff9c?style=for-the-badge&labelColor=0d1117" alt="status" />
-</div>
-
-<br/>
-
-<!-- ./whoami — native code blocks, always render -->
-<table>
-<tr>
-<td width="58%" valign="top">
-
-```python
-class Fox:
-    def __init__(self):
-        self.role      = ["quant bettor", "automation architect", "founder"]
-        self.stack     = ["Python", "TypeScript", "Next.js", "Postgres"]
-        self.models    = ["Poisson", "Dixon-Coles", "Kalman", "Kelly"]
-        self.obsession = "provable edge (CLV > 0, calibrated)"
-        self.coffee    = float("inf")
-
-    def ship(self) -> str:
-        while not self.perfect():     # it is never perfect
-            self.iterate()            # so I never stop
-        return "edge, banked."        # unreachable, on purpose
-```
-
-</td>
-<td width="42%" valign="top">
-
-```yaml
-> loading operator.profile ...
-------------------------------
-  name     : Fox
-  class    : builder / quant
-  builds   : models | pipelines | SaaS
-  weapon   : data + automation
-  timezone : always shipping
-------------------------------
-> edge detected  [ok]
-> hedge locked   [ok]
-> _
-```
-
-</td>
-</tr>
-</table>
-
-<!-- TECH ARSENAL — skillicons + shields, both fast/reliable -->
-### `~/ tech-arsenal`
+<!-- every visual on this page is a committed SVG under assets/ or GitHub-served. no third-party card services, nothing that can time out. -->
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,tailwind,postgres,supabase,vercel,git,github,docker,vscode,figma,linux&theme=dark&perline=8" alt="skills" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/pandas-130654?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/numpy-4d77cf?style=flat-square&logo=numpy&logoColor=white" alt="numpy" />
-<img src="https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white" alt="stripe" />
-<img src="https://img.shields.io/badge/Discord_Bots-5865f2?style=flat-square&logo=discord&logoColor=white" alt="discord" />
-<img src="https://img.shields.io/badge/Anthropic_Claude-d97757?style=flat-square&logo=anthropic&logoColor=white" alt="claude" />
-<img src="https://img.shields.io/badge/Sentry-362d59?style=flat-square&logo=sentry&logoColor=white" alt="sentry" />
-<img src="https://img.shields.io/badge/Monte_Carlo-00b4ff?style=flat-square&logo=tabnine&logoColor=white" alt="montecarlo" />
-
+  <a href="https://github.com/ThatOneSharpDude"><img src="assets/terminal.svg" width="100%" alt="Animated terminal session: fox boots his quant models, Poisson and Dixon-Coles fits stream by, a +3.4% EV edge is detected, the hedge locks, and the model log tails live"></a>
 </div>
 
-<!-- TELEMETRY CENTERPIECE — the committed metrics SVG (static = always loads).
-     Holds: stats header, 3D isometric calendar, languages, habits, achievements, activity. -->
-### `~/ telemetry`
+<p align="center">
+  <a href="mailto:foxcamann@gmail.com"><img src="https://img.shields.io/badge/mail-foxcamann%40gmail.com-00ff9c?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=00ff9c" alt="mail foxcamann@gmail.com"></a>
+  <a href="https://github.com/ThatOneSharpDude"><img src="https://img.shields.io/badge/github-ThatOneSharpDude-00b4ff?style=flat-square&labelColor=0d1117&logo=github&logoColor=00b4ff" alt="github ThatOneSharpDude"></a>
+  <img src="https://img.shields.io/badge/clv-validated-7b2ff7?style=flat-square&labelColor=0d1117" alt="clv validated">
+</p>
 
-<div align="center">
-  <img width="92%" src="github-metrics.svg" alt="github metrics — stats, 3D contribution calendar, languages, habits" />
-</div>
+<h3 align="center">I turn noisy data into provable edge.</h3>
+<p align="center"><sub>Calibrated. Systematic. Relentless.</sub></p>
 
-<!-- CONTRIBUTION SNAKE — committed to the output branch, GitHub-served -->
-<div align="center">
-  <img width="92%" alt="contribution snake" src="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake.svg" />
-</div>
+<br>
 
-<!-- WHAT I'M BUILDING — native code block -->
-### `~/ currently-engineering`
+## `fox@edge:~$ whoami`
+
+**Fox.** Quantitative sports bettor, AI automation architect, full-stack founder.
+I price sports markets with real models, only bet when the number clears the vig, and grade every position against the closing line.
 
 ```diff
-+ StateEdge        a US matched-betting SaaS: State x Book x Offer matrix + fee-aware hedge engine
-+ quant-models     Poisson / Dixon-Coles models for NHL, NBA, MLB, World Cup (CLV-validated)
-+ edge-terminal    real-time +EV scanner: books vs the sharp line, hedged on prediction markets
-+ jarvis           a local, voice-driven agentic OS (the brain runs on my machine, not the cloud)
-! always           more pipelines, more automation, more edge
++ models that price the market before the market moves
++ edge detected [ok] :: hedge locked [ok] :: clv positive [ok]
+- vibes, hunches, parlays    # deprecated
 ```
 
-<!-- CONNECT — shields, reliable -->
-### `~/ connect`
+## `fox@edge:~$ htop -u fox`
+
+<img src="assets/htop.svg" width="100%" alt="Process monitor: stateedge, quant-models, edge-terminal and jarvis running as processes with live CPU meters, a CLV drift sparkline averaging +2.1% and a hedge-depth ladder, uptime 1337 days, edge LIVE">
+
+| pid | process | status | what it runs |
+|--:|:--|:--|:--|
+| `1337` | **StateEdge** | <img src="https://img.shields.io/badge/state-SHIPPING-00ff9c?style=flat-square&labelColor=0d1117" alt="shipping"> | US matched-betting SaaS. State x Book x Offer matrix, fee-aware hedge engine. |
+| `2718` | **quant-models** | <img src="https://img.shields.io/badge/state-CALIBRATED-7b2ff7?style=flat-square&labelColor=0d1117" alt="calibrated"> | Poisson and Dixon-Coles for NHL, NBA, MLB, World Cup. CLV-validated. |
+| `3141` | **edge-terminal** | <img src="https://img.shields.io/badge/state-SCANNING-00b4ff?style=flat-square&labelColor=0d1117" alt="scanning"> | Real-time +EV scanner. Books vs the sharp line, hedged on prediction markets. |
+| `4242` | **jarvis** | <img src="https://img.shields.io/badge/state-LISTENING-e6edf3?style=flat-square&labelColor=0d1117" alt="listening"> | Local voice-driven agentic OS. The brain runs on my machine, not the cloud. |
+
+<sub>All four in production. F9 kills variance. It has never worked, so the models handle it instead.</sub>
+
+## `fox@edge:~$ cat ~/quant/pipeline.mmd`
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"background":"#0d1117","mainBkg":"#161b22","primaryColor":"#161b22","primaryTextColor":"#e6edf3","primaryBorderColor":"#30363d","lineColor":"#00b4ff","fontFamily":"monospace","edgeLabelBackground":"#0d1117","clusterBkg":"#0d1117"}}}%%
+flowchart LR
+    A["ingest<br/>odds + stats + injuries"] --> B["models<br/>poisson / dixon-coles / kalman"]
+    B --> C["calibration<br/>monte carlo, 50k paths"]
+    C --> D{"edge clears<br/>the vig?"}
+    D -- "no: pass" --> A
+    D -- "yes" --> E["kelly sizing<br/>0.25x fractional"]
+    E --> F["hedge lock<br/>fee-aware"]
+    F --> G["clv check<br/>vs closing line"]
+    G -. "feedback" .-> B
+    style D stroke:#00ff9c,color:#00ff9c
+    style E stroke:#00b4ff
+    style G stroke:#7b2ff7
+```
+
+```python
+# edge.config.py :: the whole philosophy in one dict
+EDGE = {
+    "pricing":    ["poisson", "dixon-coles"],   # goal and point distributions
+    "state":      "kalman filter",              # team strength drift, tracked live
+    "simulation": "monte carlo x 50_000",       # full outcome distributions, not point guesses
+    "staking":    "fractional kelly (0.25x)",   # geometric growth, capped drawdown
+    "validation": "closing line value",         # beat the close or it did not happen
+}
+
+assert EDGE["validation"] == "closing line value"   # no CLV, no edge, no bet
+```
+
+<details>
+<summary><code>fox@edge:~$ cat sizing/kelly.py</code> <sub>:: the function that decides every stake</sub></summary>
+<br>
+
+```python
+def kelly_stake(p_model: float, odds_dec: float, bankroll: float,
+                fraction: float = 0.25, cap: float = 0.02) -> float:
+    """Quarter-Kelly with a hard exposure cap. Edge or zero, never vibes."""
+    b = odds_dec - 1.0                      # net payout per unit staked
+    edge = p_model * odds_dec - 1.0         # expected value per unit
+    if edge <= 0:
+        return 0.0                          # no edge, no bet
+    f_star = edge / b                       # full kelly fraction
+    f = min(fraction * f_star, cap)         # fractional kelly, capped drawdown
+    return round(bankroll * f, 2)
+
+# >>> kelly_stake(p_model=0.52, odds_dec=2.06, bankroll=10_000)
+# 167.92  :: quarter-kelly, under the 2% cap, sized to the edge
+```
+
+</details>
+
+## `fox@edge:~$ which -a stack`
+
+<p align="center">
+  <a href="https://github.com/ThatOneSharpDude"><img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,tailwind,postgres,supabase,vercel,docker,git,linux,figma,discord&theme=dark&perline=15" alt="Python, TypeScript, JavaScript, React, Next.js, Node, Tailwind, Postgres, Supabase, Vercel, Docker, Git, Linux, Figma, Discord"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/pandas-0d1117?style=flat-square&logo=pandas&logoColor=00b4ff" alt="pandas">
+  <img src="https://img.shields.io/badge/numpy-0d1117?style=flat-square&logo=numpy&logoColor=00ff9c" alt="numpy">
+  <img src="https://img.shields.io/badge/stripe-0d1117?style=flat-square&logo=stripe&logoColor=9d5cff" alt="Stripe">
+  <img src="https://img.shields.io/badge/claude-0d1117?style=flat-square&logo=anthropic&logoColor=e6edf3" alt="Anthropic Claude">
+  <img src="https://img.shields.io/badge/sentry-0d1117?style=flat-square&logo=sentry&logoColor=9d5cff" alt="Sentry">
+  <img src="https://img.shields.io/badge/discord_bots-0d1117?style=flat-square&logo=discord&logoColor=00b4ff" alt="Discord bots">
+</p>
+
+## `fox@edge:~$ tail -f telemetry.log`
+
+<sub>Every commit is a data point. The models watch me too.</sub>
+
+<img src="github-metrics.svg" width="100%" alt="GitHub metrics: header stats, 3D isometric contribution calendar, top languages and coding habits">
+
+<img src="https://raw.githubusercontent.com/ThatOneSharpDude/ThatOneSharpDude/output/snake.svg" width="100%" alt="Contribution snake eating a year of commits">
+
+## `fox@edge:~$ ping fox`
+
+Signal beats noise. Two channels, both monitored.
+
+<p align="center">
+  <a href="mailto:foxcamann@gmail.com"><img src="https://img.shields.io/badge/mail-foxcamann%40gmail.com-00ff9c?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=00ff9c" alt="mail foxcamann@gmail.com"></a>
+  <a href="https://github.com/ThatOneSharpDude"><img src="https://img.shields.io/badge/github-ThatOneSharpDude-00b4ff?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=00b4ff" alt="github ThatOneSharpDude"></a>
+</p>
+
+<br>
 
 <div align="center">
-  <a href="mailto:foxcamann@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff9c" alt="email" /></a>
-  <a href="https://github.com/ThatOneSharpDude"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00b4ff" alt="github" /></a>
+  <img src="assets/ticker.svg" width="100%" alt="Scrolling tmux status line of model prices and locked hedges, then a typed prompt asks to explain the edge and the answer fades in: the house does not beat a man who does the math">
 </div>
-
-<!-- FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,50:7b2ff7,100:00b4ff&height=120&section=footer&text=the%20house%20doesn't%20beat%20a%20man%20who%20does%20the%20math&fontSize=16&fontColor=ffffff&fontAlignY=72" alt="footer" />

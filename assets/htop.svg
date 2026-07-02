@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 404" width="960" height="404" role="img" aria-label="htop style process monitor: stateedge, quant-models, edge-terminal and jarvis running as live processes with animated CPU meters, a self-drawing CLV drift sparkline and a breathing hedge-depth ladder">
+<title>fox@edge :: htop, projects as processes</title>
+<defs>
+<pattern id="sg" width="6" height="10" patternUnits="userSpaceOnUse"><rect width="4" height="10" fill="#00ff9c"/></pattern>
+<pattern id="sb" width="6" height="10" patternUnits="userSpaceOnUse"><rect width="4" height="10" fill="#00b4ff"/></pattern>
+<pattern id="sp" width="6" height="10" patternUnits="userSpaceOnUse"><rect width="4" height="10" fill="#9d5cff"/></pattern>
+<clipPath id="pan"><rect x="4" y="4" width="952" height="396" rx="10"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:12px;fill:#c9d1d9}
+.g{fill:#00ff9c}.b{fill:#00b4ff}.p{fill:#a87fff}.w{fill:#e6edf3}.d{fill:#8b949e}.k{fill:#525e70}
+.bd{font-weight:bold}.t{font-size:11px}
+.dot{animation:pu 2.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:1}50%{opacity:.2}}
+</style>
+<rect width="960" height="404" fill="#0d1117"/>
+<rect x="4" y="4" width="952" height="396" rx="10" fill="#0a0d13" stroke="#1f2733"/>
+<g clip-path="url(#pan)">
+<text x="22" y="26"><tspan class="g bd">htop</tspan><tspan class="k"> :: </tspan><tspan class="d">fox@edge</tspan><tspan class="k"> :: procs sorted by edge/sec</tspan></text>
+<text x="938" y="26" text-anchor="end"><tspan class="k">uptime </tspan><tspan class="w">1337d</tspan><tspan class="k"> load </tspan><tspan class="b">0.42 0.38 0.35</tspan></text>
+<rect x="14" y="38" width="932" height="1" fill="#1c2530"/>
+
+<text x="30" y="63" class="g bd">1</text>
+<text x="42" y="63" class="k">[</text>
+<rect x="54" y="52" width="298" height="12" rx="2" fill="#141a24"/>
+<rect x="55" y="53" width="120" height="10" fill="url(#sg)"><animate attributeName="width" values="120;180;96;214;120" dur="6s" repeatCount="indefinite"/></rect>
+<text x="356" y="63" class="k">]</text>
+<text x="372" y="63" class="w">41.2<animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+<text x="372" y="63" class="w" opacity="0">59.8<animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="6s" repeatCount="indefinite"/></text>
+
+<text x="30" y="87" class="g bd">2</text>
+<text x="42" y="87" class="k">[</text>
+<rect x="54" y="76" width="298" height="12" rx="2" fill="#141a24"/>
+<rect x="55" y="77" width="140" height="10" fill="url(#sg)"><animate attributeName="width" values="140;230;168;204;140" dur="7s" repeatCount="indefinite"/></rect>
+<text x="356" y="87" class="k">]</text>
+<text x="372" y="87" class="w">66.1<animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="7s" repeatCount="indefinite"/></text>
+<text x="372" y="87" class="w" opacity="0">51.3<animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="7s" repeatCount="indefinite"/></text>
+
+<text x="14" y="111" class="d t">Mem</text>
+<text x="42" y="111" class="k">[</text>
+<rect x="54" y="100" width="298" height="12" rx="2" fill="#141a24"/>
+<rect x="55" y="101" width="172" height="10" fill="url(#sb)"><animate attributeName="width" values="172;181;172" dur="9s" repeatCount="indefinite"/></rect>
+<text x="356" y="111" class="k">]</text>
+<text x="372" y="111" class="d t">6.1G/16G</text>
+
+<text x="516" y="63" class="g bd">3</text>
+<text x="530" y="63" class="k">[</text>
+<rect x="542" y="52" width="298" height="12" rx="2" fill="#141a24"/>
+<rect x="543" y="53" width="190" height="10" fill="url(#sp)"><animate attributeName="width" values="190;268;222;252;190" dur="5s" repeatCount="indefinite"/></rect>
+<text x="844" y="63" class="k">]</text>
+<text x="860" y="63" class="w">84.7<animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+<text x="860" y="63" class="w" opacity="0">68.9<animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+
+<text x="516" y="87" class="g bd">4</text>
+<text x="530" y="87" class="k">[</text>
+<rect x="542" y="76" width="298" height="12" rx="2" fill="#141a24"/>
+<rect x="543" y="77" width="80" height="10" fill="url(#sg)"><animate attributeName="width" values="80;148;62;120;80" dur="6.5s" repeatCount="indefinite"/></rect>
+<text x="844" y="87" class="k">]</text>
+<text x="860" y="87" class="w">26.4<animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="6.5s" repeatCount="indefinite"/></text>
+<text x="860" y="87" class="w" opacity="0">41.8<animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="6.5s" repeatCount="indefinite"/></text>
+
+<text x="516" y="111"><tspan class="k">tasks: </tspan><tspan class="w">4 running</tspan><tspan class="k"> :: edge </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+
+<rect x="14" y="130" width="932" height="22" fill="#00ff9c" opacity=".13"/>
+<text x="24" y="145" class="g bd">PID<tspan x="88">USER</tspan><tspan x="146">PRI</tspan><tspan x="186">NI</tspan><tspan x="224">CPU%</tspan><tspan x="288">MEM%</tspan><tspan x="352">TIME+</tspan><tspan x="436">COMMAND</tspan></text>
+
+<text x="24" y="170"><tspan class="b">1337</tspan><tspan x="88" class="g">fox</tspan><tspan x="146" class="d">20</tspan><tspan x="186" class="d">0</tspan><tspan x="288" class="d">4.2</tspan><tspan x="352" class="d">412:07</tspan><tspan x="436" class="g bd">./stateedge</tspan><tspan class="k"> --matrix state:book:offer --hedge fee-aware</tspan></text>
+<text x="224" y="170" class="w">61.3<animate attributeName="opacity" values="1;0;0" keyTimes="0;.34;.67" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+<text x="224" y="170" class="w" opacity="0">58.9<animate attributeName="opacity" values="0;1;0" keyTimes="0;.34;.67" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+<text x="224" y="170" class="w" opacity="0">64.0<animate attributeName="opacity" values="0;0;1" keyTimes="0;.34;.67" calcMode="discrete" dur="5s" repeatCount="indefinite"/></text>
+
+<text x="24" y="194"><tspan class="b">2718</tspan><tspan x="88" class="g">fox</tspan><tspan x="146" class="d">20</tspan><tspan x="186" class="d">0</tspan><tspan x="288" class="d">2.6</tspan><tspan x="352" class="d">218:44</tspan><tspan x="436" class="b bd">python</tspan><tspan class="w"> -m quant_models</tspan><tspan class="k"> --nhl --nba --mlb --wc --validate=clv</tspan></text>
+<text x="224" y="194" class="w">43.7<animate attributeName="opacity" values="1;0;0" keyTimes="0;.34;.67" calcMode="discrete" dur="6s" begin="-2s" repeatCount="indefinite"/></text>
+<text x="224" y="194" class="w" opacity="0">40.2<animate attributeName="opacity" values="0;1;0" keyTimes="0;.34;.67" calcMode="discrete" dur="6s" begin="-2s" repeatCount="indefinite"/></text>
+<text x="224" y="194" class="w" opacity="0">47.5<animate attributeName="opacity" values="0;0;1" keyTimes="0;.34;.67" calcMode="discrete" dur="6s" begin="-2s" repeatCount="indefinite"/></text>
+
+<rect x="14" y="204" width="932" height="22" fill="#00b4ff" opacity=".08"><animate attributeName="opacity" values=".07;.13;.07" dur="3s" repeatCount="indefinite"/></rect>
+<text x="24" y="218"><tspan class="b">3141</tspan><tspan x="88" class="g">fox</tspan><tspan x="146" class="d">20</tspan><tspan x="186" class="d">0</tspan><tspan x="288" class="d">3.8</tspan><tspan x="352" class="d">666:13</tspan><tspan x="436" class="g bd">./edge-terminal</tspan><tspan class="k"> --scan +ev --vs sharp --hedge prediction-mkts</tspan></text>
+<text x="224" y="218" class="w">87.1<animate attributeName="opacity" values="1;0;0" keyTimes="0;.34;.67" calcMode="discrete" dur="4s" begin="-1s" repeatCount="indefinite"/></text>
+<text x="224" y="218" class="w" opacity="0">91.4<animate attributeName="opacity" values="0;1;0" keyTimes="0;.34;.67" calcMode="discrete" dur="4s" begin="-1s" repeatCount="indefinite"/></text>
+<text x="224" y="218" class="w" opacity="0">84.6<animate attributeName="opacity" values="0;0;1" keyTimes="0;.34;.67" calcMode="discrete" dur="4s" begin="-1s" repeatCount="indefinite"/></text>
+
+<text x="24" y="242"><tspan class="b">4242</tspan><tspan x="88" class="g">fox</tspan><tspan x="146" class="d">20</tspan><tspan x="186" class="d">0</tspan><tspan x="288" class="d">38.7</tspan><tspan x="352" class="d">1337:00</tspan><tspan x="436" class="p bd">jarvis</tspan><tspan class="k"> --voice --local</tspan><tspan class="d"> "brain runs on my machine, not the cloud"</tspan></text>
+<text x="224" y="242" class="w">19.4<animate attributeName="opacity" values="1;0;0" keyTimes="0;.34;.67" calcMode="discrete" dur="7s" begin="-3s" repeatCount="indefinite"/></text>
+<text x="224" y="242" class="w" opacity="0">22.7<animate attributeName="opacity" values="0;1;0" keyTimes="0;.34;.67" calcMode="discrete" dur="7s" begin="-3s" repeatCount="indefinite"/></text>
+<text x="224" y="242" class="w" opacity="0">17.2<animate attributeName="opacity" values="0;0;1" keyTimes="0;.34;.67" calcMode="discrete" dur="7s" begin="-3s" repeatCount="indefinite"/></text>
+
+<rect x="14" y="256" width="932" height="1" fill="#1c2530"/>
+
+<text x="24" y="278"><tspan class="g bd">clv drift</tspan><tspan class="k"> :: last 30 graded vs close</tspan></text>
+<text x="462" y="278" text-anchor="end"><tspan class="g bd">+2.1%</tspan><tspan class="k"> avg</tspan></text>
+<line x1="24" y1="326" x2="444" y2="326" stroke="#2a3542" stroke-dasharray="3 4"/>
+<text x="462" y="330" text-anchor="end" class="k t">close</text>
+<path d="M24 329 L40 320 L56 332 L72 316 L88 329 L104 333 L120 314 L136 322 L152 330 L168 310 L184 318 L200 328 L216 306 L232 315 L248 331 L264 308 L280 318 L296 327 L312 302 L328 312 L344 322 L360 304 L376 314 L392 298 L408 308 L424 316 L440 295" pathLength="1" fill="none" stroke="#00ff9c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1">
+<animate attributeName="stroke-dashoffset" values="1;0" keyTimes="0;1" calcMode="spline" keySplines="0.3 0 0.2 1" begin="0.4s" dur="2.6s" fill="freeze"/>
+</path>
+<circle cx="440" cy="295" r="3" fill="#00ff9c" opacity="0">
+<animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze"/>
+<animate attributeName="r" values="3;4.5;3" dur="2.2s" begin="3s" repeatCount="indefinite"/>
+</circle>
+
+<line x1="474" y1="264" x2="474" y2="352" stroke="#1c2530"/>
+
+<text x="486" y="278"><tspan class="g bd">hedge depth</tspan><tspan class="k"> :: </tspan><tspan class="w">PIT ML +142</tspan></text>
+<text x="938" y="278" text-anchor="end" class="t"><tspan class="p">pmkt asks</tspan><tspan class="k"> vs </tspan><tspan class="g">book bids</tspan><tspan class="k"> :: mid </tspan><tspan class="w">0.475</tspan></text>
+
+<rect x="486" y="298" width="460" height="14" fill="#9d5cff" opacity="0"><animate attributeName="opacity" values="0;.12;0;0" keyTimes="0;.04;.18;1" dur="8s" begin="2s" repeatCount="indefinite"/></rect>
+<rect x="486" y="319" width="460" height="14" fill="#00ff9c" opacity="0"><animate attributeName="opacity" values="0;.14;0;0" keyTimes="0;.04;.18;1" dur="6.5s" repeatCount="indefinite"/></rect>
+
+<text x="494" y="294" class="p t">0.49</text>
+<text x="548" y="294" class="d t">14.6k</text>
+<rect x="610" y="286" width="250" height="10" fill="url(#sp)"><animate attributeName="width" values="250;300;230;280;250" dur="7s" repeatCount="indefinite"/></rect>
+
+<text x="494" y="308" class="p t">0.48</text>
+<text x="548" y="308" class="d t">8.2k</text>
+<rect x="610" y="300" width="140" height="10" fill="url(#sp)"><animate attributeName="width" values="140;190;120;170;140" dur="5s" repeatCount="indefinite"/></rect>
+
+<line x1="486" y1="315" x2="946" y2="315" stroke="#2a3542" stroke-dasharray="4 4"/>
+
+<text x="494" y="329" class="g t">0.47</text>
+<text x="548" y="329" class="d t">9.7k</text>
+<rect x="610" y="321" width="160" height="10" fill="url(#sg)"><animate attributeName="width" values="160;120;210;140;160" dur="6s" repeatCount="indefinite"/></rect>
+
+<text x="494" y="343" class="g t">0.46</text>
+<text x="548" y="343" class="d t">12.4k</text>
+<rect x="610" y="335" width="270" height="10" fill="url(#sg)"><animate attributeName="width" values="270;310;240;300;270" dur="8s" repeatCount="indefinite"/></rect>
+
+<rect x="5" y="363" width="950" height="1" fill="#1c2530"/>
+<rect x="5" y="364" width="950" height="36" fill="#0e131b"/>
+<text x="22" y="385" class="t"><tspan class="w">F1</tspan><tspan class="k">help </tspan><tspan class="w">F2</tspan><tspan class="k">setup </tspan><tspan class="w">F3</tspan><tspan class="k">search </tspan><tspan class="w">F4</tspan><tspan class="k">filter </tspan><tspan class="w">F5</tspan><tspan class="k">tree </tspan><tspan class="w">F9</tspan><tspan class="k">kill variance </tspan><tspan class="w">F10</tspan><tspan class="k">quit</tspan></text>
+<text x="938" y="385" text-anchor="end" class="t"><tspan class="g dot">&#9679;</tspan><tspan class="g"> edge detected [ok] :: hedge locked [ok]</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Animated terminal session: fox boots his quant models, detects a +3.4% EV edge, locks the hedge and tails the model log">
+<title>fox@edge :: live terminal session</title>
+<defs>
+<linearGradient id="scanG" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0" stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00ff9c" stop-opacity=".05"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="barG" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#00b4ff"/><stop offset="1" stop-color="#00ff9c"/>
+</linearGradient>
+<filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="46"/></filter>
+<filter id="ds" x="-6%" y="-8%" width="112%" height="120%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity=".55"/></filter>
+<pattern id="crt" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#010409"/></pattern>
+<clipPath id="win"><rect x="24" y="20" width="912" height="488" rx="12"/></clipPath>
+<clipPath id="c1"><rect x="157" y="112" width="0" height="20"><animate attributeName="width" values="0;8;16;24;32;40;48" calcMode="discrete" begin="0.5s" dur="0.42s" fill="freeze"/></rect></clipPath>
+<clipPath id="c2"><rect x="157" y="154" width="0" height="20"><animate attributeName="width" values="0;16;32;48;64;80;96;112;128;144;160;176;192;208;224;240;256;272;288;304" calcMode="discrete" begin="1.7s" dur="1s" fill="freeze"/></rect></clipPath>
+<clipPath id="c3"><rect x="157" y="343" width="0" height="20"><animate attributeName="width" values="0;16;32;48;64;80;96;112;128;144;160;176;184" calcMode="discrete" begin="7.6s" dur="0.6s" fill="freeze"/></rect></clipPath>
+<clipPath id="cd"><rect x="356" y="175" width="0" height="20"><animate attributeName="width" values="0;8;16;24;32;40;48;56;64;72;80" calcMode="discrete" begin="3s" dur="0.55s" fill="freeze"/></rect></clipPath>
+<clipPath id="logw"><rect x="40" y="368" width="874" height="84"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:14px;fill:#c9d1d9}
+.g{fill:#00ff9c}.b{fill:#00b4ff}.p{fill:#a87fff}.w{fill:#e6edf3}.d{fill:#8b949e}.k{fill:#525e70}
+.bd{font-weight:bold}.s{font-size:12px}.t{font-size:11.5px}
+.blink{animation:bl 1.12s steps(1,end) infinite}
+@keyframes bl{0%,55%{opacity:1}56%,100%{opacity:0}}
+.win{animation:pop .7s cubic-bezier(.2,.8,.25,1) both}
+@keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.gl1{animation:pl1 9s ease-in-out infinite alternate}
+.gl2{animation:pl1 11s ease-in-out -4s infinite alternate}
+@keyframes pl1{from{opacity:.04}to{opacity:.09}}
+.dot{animation:pu 2.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:1}50%{opacity:.2}}
+.fa{animation:fA 8s steps(1,end) infinite}
+.fb{animation:fB 8s steps(1,end) infinite}
+@keyframes fA{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes fB{0%,49%{opacity:0}50%,100%{opacity:1}}
+</style>
+<rect width="960" height="540" fill="#0d1117"/>
+<ellipse class="gl1" cx="190" cy="90" rx="280" ry="150" fill="#00ff9c" opacity=".05" filter="url(#soft)"/>
+<ellipse class="gl2" cx="800" cy="470" rx="300" ry="160" fill="#7b2ff7" opacity=".07" filter="url(#soft)"/>
+<g class="win">
+<rect x="24" y="20" width="912" height="488" rx="12" fill="#10151d" stroke="#212b38" filter="url(#ds)"/>
+<g clip-path="url(#win)">
+<rect x="24" y="86" width="912" height="396" fill="#0a0d13"/>
+<rect x="24" y="57" width="912" height="1" fill="#1c2530"/>
+<rect x="24" y="85" width="912" height="1" fill="#1c2530"/>
+<circle cx="48" cy="39" r="6.5" fill="#ff5f57"/>
+<circle cx="70" cy="39" r="6.5" fill="#febc2e"/>
+<circle cx="92" cy="39" r="6.5" fill="#28c840"/>
+<text x="480" y="43" text-anchor="middle" class="s d">fox@edge: ~/quant</text>
+<rect x="40" y="61" width="140" height="25" fill="#0a0d13"/>
+<rect x="40" y="59" width="140" height="2" fill="#00ff9c"/>
+<text x="54" y="78" class="s g">1: ./scan</text>
+<text x="200" y="78" class="s k">2: models.log</text>
+<text x="330" y="78" class="s k">3: jarvis</text>
+<text x="920" y="78" text-anchor="end" class="t k">tmux :: session edge</text>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="0.3s"/>
+<text x="56" y="126"><tspan class="g">fox@edge</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="g">$</tspan></text></g>
+<text x="157" y="126" class="w" textLength="48" lengthAdjust="spacing" clip-path="url(#c1)">whoami</text>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.2s" fill="freeze"/>
+<text x="56" y="147"><tspan class="w bd">fox</tspan><tspan class="k"> :: </tspan><tspan class="w">quantitative sports bettor</tspan><tspan class="k"> // </tspan><tspan class="w">ai automation architect</tspan><tspan class="k"> // </tspan><tspan class="w">full-stack founder</tspan></text></g>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="1.5s"/>
+<text x="56" y="168"><tspan class="g">fox@edge</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="g">$</tspan></text></g>
+<text x="157" y="168" class="w" textLength="304" lengthAdjust="spacing" clip-path="url(#c2)">./scan --edge --min-ev=2.0 --books=all</text>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.9s" fill="freeze"/>
+<text x="56" y="189"><tspan class="p">[boot]</tspan><tspan x="192" class="d">loading models</tspan></text></g>
+<text x="356" y="189" class="k" textLength="80" lengthAdjust="spacing" clip-path="url(#cd)">..........</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".15s" begin="3.6s" fill="freeze"/>
+<text x="452" y="189" class="g">ok</text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="3.9s" fill="freeze"/>
+<text x="56" y="210"><tspan class="p">[poisson]</tspan><tspan x="192" class="b bd">nhl</tspan><tspan x="252" class="k">goals</tspan><tspan x="356" class="d">&#955;_h </tspan><tspan class="w">3.21</tspan><tspan x="490" class="d">&#955;_a </tspan><tspan class="w">2.74</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.2s" fill="freeze"/>
+<text x="56" y="231"><tspan class="p">[dixon-coles]</tspan><tspan x="192" class="b bd">nba</tspan><tspan x="252" class="k">totals</tspan><tspan x="356" class="d">&#961; </tspan><tspan class="w">-0.041</tspan><tspan x="490" class="d">calib </tspan><tspan class="b">0.982</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.5s" fill="freeze"/>
+<text x="56" y="252"><tspan class="p">[kalman]</tspan><tspan x="192" class="b bd">mlb</tspan><tspan x="252" class="k">ratings</tspan><tspan x="356" class="d">var </tspan><tspan class="w">3.1e-4</tspan><tspan x="490" class="d">state </tspan><tspan class="g">stable</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.8s" fill="freeze"/>
+<text x="56" y="273"><tspan class="p">[monte-carlo]</tspan><tspan x="192" class="b">50,000</tspan><tspan class="d"> paths</tspan></text>
+<rect x="356" y="263" width="220" height="11" rx="2" fill="#141a24" stroke="#232e3c"/></g>
+<rect x="357" y="264" width="0" height="9" rx="1.5" fill="url(#barG)"><animate attributeName="width" values="0;218" begin="4.9s" dur="0.9s" fill="freeze"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".15s" begin="5.9s" fill="freeze"/>
+<text x="592" y="273" class="g">done</text></g>
+
+<rect x="40" y="281" width="874" height="20" fill="#00ff9c" opacity="0"><animate attributeName="opacity" values="0;.13;0" keyTimes="0;.25;1" dur="1s" begin="6.1s"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="6.1s" fill="freeze"/>
+<text x="56" y="294"><tspan class="g bd">edge detected</tspan><tspan x="192" class="g">[ok]</tspan><tspan x="252" class="w">PIT ML +142</tspan><tspan x="390" class="d">vs sharp +118</tspan><tspan x="560" class="b bd">ev +3.4%</tspan></text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="6.6s" fill="freeze"/>
+<text x="56" y="315"><tspan class="g bd">hedge locked</tspan><tspan x="192" class="g">[ok]</tspan><tspan x="252" class="w">prediction mkt @ 0.47</tspan><tspan x="490" class="d">fee-aware</tspan><tspan x="610" class="b">&#916; risk 0.00</tspan></text></g>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="7s" fill="freeze"/>
+<text x="56" y="336"><tspan class="p">[kelly]</tspan><tspan x="192" class="w">0.25x fractional</tspan><tspan x="356" class="d">stake </tspan><tspan class="w">1.8u</tspan><tspan x="490" class="d">clv </tspan><tspan class="g bd">+2.1%</tspan><tspan x="610" class="g">validated ok</tspan></text></g>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="7.4s"/>
+<text x="56" y="357"><tspan class="g">fox@edge</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="g">$</tspan></text></g>
+<text x="157" y="357" class="w" textLength="184" lengthAdjust="spacing" clip-path="url(#c3)">tail -f logs/models.log</text>
+
+<g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="8.4s" fill="freeze"/>
+<g clip-path="url(#logw)">
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 380;0 359;0 338;0 317;0 296;0 275" calcMode="discrete" dur="10.8s" repeatCount="indefinite"/>
+<g id="lg">
+<text y="0"><tspan x="56" class="k">14:02:11</tspan><tspan x="140" class="p">[clv]</tspan><tspan x="228" class="d">PIT ML opened </tspan><tspan class="b">+142</tspan><tspan class="d"> closed </tspan><tspan class="b">+118</tspan><tspan class="g"> beat the close +2.1%</tspan></text>
+<text y="21"><tspan x="56" class="k">14:02:13</tspan><tspan x="140" class="p">[scan]</tspan><tspan x="228" class="d">312 markets swept </tspan><tspan class="w">2 edges</tspan><tspan class="d"> 1 hedged </tspan><tspan class="g">live</tspan></text>
+<text y="42"><tspan x="56" class="k">14:02:16</tspan><tspan x="140" class="p">[nhl]</tspan><tspan x="228" class="d">poisson refit ll </tspan><tspan class="w">-2.741</tspan><tspan class="d"> &#916; </tspan><tspan class="w">+0.003</tspan><tspan class="d"> converged</tspan></text>
+<text y="63"><tspan x="56" class="k">14:02:18</tspan><tspan x="140" class="p">[kelly]</tspan><tspan x="228" class="d">exposure </tspan><tspan class="w">4.2%</tspan><tspan class="d"> max-dd </tspan><tspan class="w">6.1%</tspan><tspan class="d"> bankroll </tspan><tspan class="g">ok</tspan></text>
+<text y="84"><tspan x="56" class="k">14:02:21</tspan><tspan x="140" class="p">[nba]</tspan><tspan x="228" class="d">dc &#961; drift </tspan><tspan class="w">-0.041 -&gt; -0.043</tspan><tspan class="d"> recalibrated</tspan></text>
+<text y="105"><tspan x="56" class="k">14:02:24</tspan><tspan x="140" class="p">[jarvis]</tspan><tspan x="228" class="d">"edge report ready" spoken </tspan><tspan class="b">local</tspan><tspan class="d"> 0 cloud calls</tspan></text>
+</g>
+<use href="#lg" xlink:href="#lg" y="126"/>
+</g>
+</g>
+</g>
+
+<rect x="24" y="482" width="912" height="26" fill="#0e131b"/>
+<rect x="24" y="482" width="912" height="1" fill="#1c2530"/>
+<rect x="40" y="487" width="58" height="16" rx="3" fill="#00ff9c"/>
+<text x="69" y="499" text-anchor="middle" class="t bd" fill="#0d1117">quant</text>
+<text x="112" y="499" class="t g">0:scan*</text>
+<text x="182" y="499" class="t k">1:models</text>
+<text x="262" y="499" class="t k">2:jarvis</text>
+<text x="920" y="499" text-anchor="end" class="t fa"><tspan class="b">ev +3.4%</tspan><tspan class="k"> | </tspan><tspan class="g">clv +2.1%</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+<text x="920" y="499" text-anchor="end" class="t fb" opacity="0"><tspan class="b">61% beat close</tspan><tspan class="k"> | </tspan><tspan class="g">max dd 6.1%</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+
+<rect x="24" y="-130" width="912" height="120" fill="url(#scanG)"><animate attributeName="y" values="-120;530" dur="7s" repeatCount="indefinite"/></rect>
+<rect x="24" y="20" width="912" height="488" fill="url(#crt)" opacity=".08"/>
+</g>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="0.3s"/><set attributeName="opacity" to="0" begin="1.05s"/>
+<rect x="157" y="113" width="9" height="16" fill="#00ff9c" opacity=".85"><animate attributeName="x" values="157;165;173;181;189;197;205" calcMode="discrete" begin="0.5s" dur="0.42s" fill="freeze"/></rect></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="1.55s"/><set attributeName="opacity" to="0" begin="2.85s"/>
+<rect x="157" y="155" width="9" height="16" fill="#00ff9c" opacity=".85"><animate attributeName="x" values="157;173;189;205;221;237;253;269;285;301;317;333;349;365;381;397;413;429;445;461" calcMode="discrete" begin="1.7s" dur="1s" fill="freeze"/></rect></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="7.45s"/>
+<rect class="blink" x="157" y="344" width="9" height="16" fill="#00ff9c" opacity=".85"><animate attributeName="x" values="157;173;189;205;221;237;253;269;285;301;317;333;341" calcMode="discrete" begin="7.6s" dur="0.6s" fill="freeze"/></rect></g>
+</g>
+</svg>
