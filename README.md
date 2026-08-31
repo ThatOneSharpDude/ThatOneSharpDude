@@ -7,23 +7,24 @@
 <p align="center">
   <a href="mailto:foxcamann@gmail.com"><img src="https://img.shields.io/badge/mail-foxcamann%40gmail.com-00ff9c?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=00ff9c" alt="mail foxcamann@gmail.com"></a>
   <a href="https://github.com/ThatOneSharpDude"><img src="https://img.shields.io/badge/github-ThatOneSharpDude-00b4ff?style=flat-square&labelColor=0d1117&logo=github&logoColor=00b4ff" alt="github ThatOneSharpDude"></a>
-  <img src="https://img.shields.io/badge/clv-validated-7b2ff7?style=flat-square&labelColor=0d1117" alt="clv validated">
+  <img src="https://img.shields.io/badge/measurement-first-7b2ff7?style=flat-square&labelColor=0d1117" alt="measurement first">
 </p>
 
-<h3 align="center">I turn noisy data into provable edge.</h3>
-<p align="center"><sub>Calibrated. Systematic. Relentless.</sub></p>
+<h3 align="center">I build systems that can prove themselves wrong.</h3>
+<p align="center"><sub>Instrumented. Falsifiable. Audited by its own tests.</sub></p>
 
 <br>
 
 ## `fox@edge:~$ whoami`
 
 **Fox.** Quantitative sports bettor, AI automation architect, full-stack founder.
-I price sports markets with real models, only bet when the number clears the vig, and grade every position against the closing line.
+I price sports markets with real models, grade every position against the closing line, and keep the ones I declined so the gate itself can be measured.
 
 ```diff
-+ models that price the market before the market moves
-+ edge detected [ok] :: hedge locked [ok] :: clv positive [ok]
-- vibes, hunches, parlays    # deprecated
++ every position frozen at entry, including the 87% the system declined
++ constants carry a fingerprint of the evidence they were fitted on
++ a guard that cannot fail on bad input is not a guard
+- claims that cannot be falsified    # deprecated
 ```
 
 ## `fox@edge:~$ htop -u fox`
@@ -33,7 +34,7 @@ I price sports markets with real models, only bet when the number clears the vig
 | pid | process | status | what it runs |
 |--:|:--|:--|:--|
 | `1337` | **StateEdge** | <img src="https://img.shields.io/badge/state-SHIPPING-00ff9c?style=flat-square&labelColor=0d1117" alt="shipping"> | US matched-betting SaaS. State x Book x Offer matrix, fee-aware hedge engine. |
-| `2718` | **quant-models** | <img src="https://img.shields.io/badge/state-CALIBRATED-7b2ff7?style=flat-square&labelColor=0d1117" alt="calibrated"> | Poisson and Dixon-Coles for NHL, NBA, MLB, World Cup. CLV-validated. |
+| `2718` | **quant-models** | <img src="https://img.shields.io/badge/state-INSTRUMENTED-7b2ff7?style=flat-square&labelColor=0d1117" alt="instrumented"> | Poisson, Dixon-Coles, negative-binomial props across MLB, WNBA, NBA, soccer. Dispersion re-derived from 191,668 ground-truth player-games. |
 | `3141` | **edge-terminal** | <img src="https://img.shields.io/badge/state-SCANNING-00b4ff?style=flat-square&labelColor=0d1117" alt="scanning"> | Real-time +EV scanner. Books vs the sharp line, hedged on prediction markets. |
 | `4242` | **jarvis** | <img src="https://img.shields.io/badge/state-LISTENING-e6edf3?style=flat-square&labelColor=0d1117" alt="listening"> | Local voice-driven agentic OS. The brain runs on my machine, not the cloud. |
 
@@ -91,6 +92,18 @@ def kelly_stake(p_model: float, odds_dec: float, bankroll: float,
 ```
 
 </details>
+
+## `fox@edge:~$ cat research/silent-failure.md`
+
+A system whose own output is the evidence used to judge it will fail quietly. Three that did, and what each cost, measured on the live book:
+
+| failure | how it hid | measured |
+|:--|:--|:--|
+| a randomised trial that was not randomised | arms balanced 353 to 350 for nine days | 51.7% of 9,074 assignments irreproducible |
+| a metric with nothing to measure | CLV read healthy because the failures were never logged | 0 of 64,051 recoverable by faster polling |
+| the population chose the answer | ROI quoted on the wrong subset | the headline changes sign |
+
+<sub>Neither ROI figure is distinguishable from zero once clustered by day. That is the finding, not a disclaimer.</sub>
 
 ## `fox@edge:~$ which -a stack`
 
