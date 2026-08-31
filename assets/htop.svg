@@ -59,7 +59,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text x="860" y="87" class="w">26.4<animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="6.5s" repeatCount="indefinite"/></text>
 <text x="860" y="87" class="w" opacity="0">41.8<animate attributeName="opacity" values="0;1" keyTimes="0;.5" calcMode="discrete" dur="6.5s" repeatCount="indefinite"/></text>
 
-<text x="516" y="111"><tspan class="k">tasks: </tspan><tspan class="w">4 running</tspan><tspan class="k"> :: edge </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+<text x="516" y="111"><tspan class="k">tasks: </tspan><tspan class="w">4 running</tspan><tspan class="k"> :: edge </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> AUDITED</tspan></text>
 
 <rect x="14" y="130" width="932" height="22" fill="#00ff9c" opacity=".13"/>
 <text x="24" y="145" class="g bd">PID<tspan x="88">USER</tspan><tspan x="146">PRI</tspan><tspan x="186">NI</tspan><tspan x="224">CPU%</tspan><tspan x="288">MEM%</tspan><tspan x="352">TIME+</tspan><tspan x="436">COMMAND</tspan></text>
@@ -88,7 +88,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <rect x="14" y="256" width="932" height="1" fill="#1c2530"/>
 
 <text x="24" y="278"><tspan class="g bd">clv drift</tspan><tspan class="k"> :: last 30 graded vs close</tspan></text>
-<text x="462" y="278" text-anchor="end"><tspan class="g bd">+2.1%</tspan><tspan class="k"> avg</tspan></text>
+<text x="462" y="278" text-anchor="end"><tspan class="g bd">+1.57pp</tspan><tspan class="k"> avg</tspan></text>
 <line x1="24" y1="326" x2="444" y2="326" stroke="#2a3542" stroke-dasharray="3 4"/>
 <text x="462" y="330" text-anchor="end" class="k t">close</text>
 <path d="M24 329 L40 320 L56 332 L72 316 L88 329 L104 333 L120 314 L136 322 L152 330 L168 310 L184 318 L200 328 L216 306 L232 315 L248 331 L264 308 L280 318 L296 327 L312 302 L328 312 L344 322 L360 304 L376 314 L392 298 L408 308 L424 316 L440 295" pathLength="1" fill="none" stroke="#00ff9c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1">
@@ -128,6 +128,6 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <rect x="5" y="363" width="950" height="1" fill="#1c2530"/>
 <rect x="5" y="364" width="950" height="36" fill="#0e131b"/>
 <text x="22" y="385" class="t"><tspan class="w">F1</tspan><tspan class="k">help </tspan><tspan class="w">F2</tspan><tspan class="k">setup </tspan><tspan class="w">F3</tspan><tspan class="k">search </tspan><tspan class="w">F4</tspan><tspan class="k">filter </tspan><tspan class="w">F5</tspan><tspan class="k">tree </tspan><tspan class="w">F9</tspan><tspan class="k">kill variance </tspan><tspan class="w">F10</tspan><tspan class="k">quit</tspan></text>
-<text x="938" y="385" text-anchor="end" class="t"><tspan class="g dot">&#9679;</tspan><tspan class="g"> edge detected [ok] :: hedge locked [ok]</tspan></text>
+<text x="938" y="385" text-anchor="end" class="t"><tspan class="g dot">&#9679;</tspan><tspan class="g"> close captured [ok] :: declined kept [ok]</tspan></text>
 </g>
 </svg>
