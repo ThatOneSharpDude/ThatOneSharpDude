@@ -1,7 +1,7 @@
 <!-- every visual on this page is a committed SVG under assets/ or GitHub-served. no third-party card services, nothing that can time out. -->
 
 <div align="center">
-  <a href="https://github.com/ThatOneSharpDude"><img src="assets/terminal.svg" width="100%" alt="Animated terminal session: fox boots his quant models, Poisson and Dixon-Coles fits stream by, a +3.4% EV edge is detected, the hedge locks, and the model log tails live"></a>
+  <a href="https://github.com/ThatOneSharpDude"><img src="assets/terminal.svg" width="100%" alt="Animated terminal session: fox boots his quant models, Poisson and Dixon-Coles fits stream by, a close is captured, the declined rows are kept, and the model log tails live"></a>
 </div>
 
 <p align="center">
@@ -29,7 +29,7 @@ I price sports markets with real models, grade every position against the closin
 
 ## `fox@edge:~$ htop -u fox`
 
-<img src="assets/htop.svg" width="100%" alt="Process monitor: stateedge, quant-models, edge-terminal and jarvis running as processes with live CPU meters, a CLV drift sparkline averaging +2.1% and a hedge-depth ladder, uptime 1337 days, edge LIVE">
+<img src="assets/htop.svg" width="100%" alt="Process monitor: stateedge, quant-models, edge-terminal and jarvis running as processes with live CPU meters, a measured CLV sparkline of +1.57pp and a hedge-depth ladder, uptime 1337 days, measurement AUDITED">
 
 | pid | process | status | what it runs |
 |--:|:--|:--|:--|
