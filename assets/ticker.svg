@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 128" width="960" height="128" role="img" aria-label="tmux status bar with a scrolling ticker of model prices, detected edges and locked hedges, then a typed prompt asks to explain the edge and the answer fades in: the house does not beat a man who does the math">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 128" width="960" height="128" role="img" aria-label="tmux status bar with a scrolling ticker of model prices, detected edges and locked hedges, then a typed prompt asks to explain the edge and the answer fades in: the market is not the adversary, the measurement is">
 <title>fox@edge :: status line and sign-off</title>
 <defs>
 <clipPath id="tc"><rect x="124" y="9" width="642" height="38"/></clipPath>
@@ -23,7 +23,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <g transform="translate(124 0)">
 <g>
 <animateTransform attributeName="transform" type="translate" from="0 0" to="-1930 0" dur="44s" repeatCount="indefinite"/>
-<text id="tk" x="16" y="33" textLength="1930" lengthAdjust="spacing"><tspan class="b bd">NHL</tspan><tspan class="w"> PIT ML </tspan><tspan class="b">+142</tspan><tspan class="k"> -&gt; </tspan><tspan>hedge @ 0.47 </tspan><tspan class="g">[ok]</tspan><tspan class="k"> :: </tspan><tspan class="b bd">NBA</tspan><tspan class="w"> BOS -3.5</tspan><tspan> clv </tspan><tspan class="g">+1.8% [ok]</tspan><tspan class="k"> :: </tspan><tspan class="b bd">MLB</tspan><tspan class="w"> NYY +105</tspan><tspan> model +92 </tspan><tspan class="k">pass</tspan><tspan class="k"> :: </tspan><tspan class="b bd">WC</tspan><tspan class="w"> ARG 2.10</tspan><tspan> model 1.88 edge </tspan><tspan class="g">+4.1% [ok]</tspan><tspan class="k"> :: </tspan><tspan class="w">mc 50k paths</tspan><tspan class="k"> :: </tspan><tspan class="w">kelly 0.25x</tspan><tspan class="k"> :: </tspan><tspan class="g">calibrated.</tspan><tspan class="b"> systematic.</tspan><tspan class="w"> relentless.</tspan><tspan class="k"> :: </tspan><tspan class="g">edge detected [ok]</tspan><tspan class="k"> :: </tspan><tspan class="g">hedge locked [ok]</tspan><tspan class="k"> :: </tspan></text>
+<text id="tk" x="16" y="33" textLength="1930" lengthAdjust="spacing"><tspan class="b bd">NHL</tspan><tspan class="w"> PIT ML </tspan><tspan class="b">+142</tspan><tspan class="k"> -&gt; </tspan><tspan>hedge @ 0.47 </tspan><tspan class="g">[ok]</tspan><tspan class="k"> :: </tspan><tspan class="b bd">NBA</tspan><tspan class="w"> BOS -3.5</tspan><tspan> clv </tspan><tspan class="g">+1.8% [ok]</tspan><tspan class="k"> :: </tspan><tspan class="b bd">MLB</tspan><tspan class="w"> NYY +105</tspan><tspan> model +92 </tspan><tspan class="k">pass</tspan><tspan class="k"> :: </tspan><tspan class="b bd">WC</tspan><tspan class="w"> ARG 2.10</tspan><tspan> model 1.88 edge </tspan><tspan class="g">+4.1% [ok]</tspan><tspan class="k"> :: </tspan><tspan class="w">mc 50k paths</tspan><tspan class="k"> :: </tspan><tspan class="w">kelly 0.25x</tspan><tspan class="k"> :: </tspan><tspan class="g">instrumented.</tspan><tspan class="b"> falsifiable.</tspan><tspan class="w"> audited.</tspan><tspan class="k"> :: </tspan><tspan class="g">close captured [ok]</tspan><tspan class="k"> :: </tspan><tspan class="g">hedge locked [ok]</tspan><tspan class="k"> :: </tspan></text>
 <use href="#tk" xlink:href="#tk" x="1930"/>
 </g>
 </g>
@@ -41,8 +41,8 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <rect x="104" y="64" width="8" height="15" fill="#00ff9c" opacity=".85"><animate attributeName="x" values="104;119;134;149;164;179;194;209;224" calcMode="discrete" begin="0.5s" dur="0.7s" fill="freeze"/></rect></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.8s" fill="freeze"/>
-<text x="270" y="112" class="g" font-size="15" textLength="420" lengthAdjust="spacing" filter="url(#qglow)" opacity=".55">"the house does not beat a man who does the math"</text>
-<text x="270" y="112" class="g" font-size="15" textLength="420" lengthAdjust="spacing">"the house does not beat a man who does the math"</text>
+<text x="270" y="112" class="g" font-size="15" textLength="420" lengthAdjust="spacing" filter="url(#qglow)" opacity=".55">"the market is not the adversary, the measurement is"</text>
+<text x="270" y="112" class="g" font-size="15" textLength="420" lengthAdjust="spacing">"the market is not the adversary, the measurement is"</text>
 <rect class="blink" x="698" y="99" width="9" height="16" fill="#00ff9c" opacity=".85"/>
 </g>
 </svg>
