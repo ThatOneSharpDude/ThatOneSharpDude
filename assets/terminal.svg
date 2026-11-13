@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Animated terminal session: fox boots his quant models, captures a close, keeps the rows it declined and tails the model log">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Animated terminal session: fox loads Poisson, negative-binomial and Marcel-prior models, runs a season Monte Carlo, freezes the props board against a power de-vigged sharp price, locks a pre-registered look and tails the research log">
 <title>fox@edge :: live terminal session</title>
 <defs>
 <linearGradient id="scanG" x1="0" x2="0" y1="0" y2="1">
@@ -52,7 +52,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <rect x="40" y="59" width="140" height="2" fill="#00ff9c"/>
 <text x="54" y="78" class="s g">1: ./scan</text>
 <text x="200" y="78" class="s k">2: models.log</text>
-<text x="330" y="78" class="s k">3: jarvis</text>
+<text x="330" y="78" class="s k">3: prereg</text>
 <text x="920" y="78" text-anchor="end" class="t k">tmux :: session edge</text>
 
 <g opacity="0"><set attributeName="opacity" to="1" begin="0.3s"/>
@@ -60,11 +60,11 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text x="157" y="126" class="w" textLength="48" lengthAdjust="spacing" clip-path="url(#c1)">whoami</text>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.2s" fill="freeze"/>
-<text x="56" y="147"><tspan class="w bd">fox</tspan><tspan class="k"> :: </tspan><tspan class="w">quantitative sports bettor</tspan><tspan class="k"> // </tspan><tspan class="w">ai automation architect</tspan><tspan class="k"> // </tspan><tspan class="w">full-stack founder</tspan></text></g>
+<text x="56" y="147"><tspan class="w bd">fox</tspan><tspan class="k"> :: </tspan><tspan class="w">quant research</tspan><tspan class="k"> // </tspan><tspan class="w">analytics @ du</tspan><tspan class="k"> // </tspan><tspan class="w">tech consulting</tspan><tspan class="k"> // </tspan><tspan class="w">sf strategies</tspan></text></g>
 
 <g opacity="0"><set attributeName="opacity" to="1" begin="1.5s"/>
 <text x="56" y="168"><tspan class="g">fox@edge</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="g">$</tspan></text></g>
-<text x="157" y="168" class="w" textLength="304" lengthAdjust="spacing" clip-path="url(#c2)">./scan --edge --min-ev=2.0 --books=all</text>
+<text x="157" y="168" class="w" textLength="304" lengthAdjust="spacing" clip-path="url(#c2)">./scan --props --devig=power --freeze</text>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.9s" fill="freeze"/>
 <text x="56" y="189"><tspan class="p">[boot]</tspan><tspan x="192" class="d">loading models</tspan></text></g>
@@ -76,13 +76,13 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text x="56" y="210"><tspan class="p">[poisson]</tspan><tspan x="192" class="b bd">nhl</tspan><tspan x="252" class="k">goals</tspan><tspan x="356" class="d">&#955;_h </tspan><tspan class="w">3.21</tspan><tspan x="490" class="d">&#955;_a </tspan><tspan class="w">2.74</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.2s" fill="freeze"/>
-<text x="56" y="231"><tspan class="p">[dixon-coles]</tspan><tspan x="192" class="b bd">nba</tspan><tspan x="252" class="k">totals</tspan><tspan x="356" class="d">&#961; </tspan><tspan class="w">-0.041</tspan><tspan x="490" class="d">calib </tspan><tspan class="b">0.982</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
+<text x="56" y="231"><tspan class="p">[neg-binom]</tspan><tspan x="192" class="b bd">nba</tspan><tspan x="252" class="k">props</tspan><tspan x="356" class="d">&#966; </tspan><tspan class="w">0.31</tspan><tspan x="490" class="d">calib </tspan><tspan class="b">0.982</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.5s" fill="freeze"/>
-<text x="56" y="252"><tspan class="p">[kalman]</tspan><tspan x="192" class="b bd">mlb</tspan><tspan x="252" class="k">ratings</tspan><tspan x="356" class="d">var </tspan><tspan class="w">3.1e-4</tspan><tspan x="490" class="d">state </tspan><tspan class="g">stable</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
+<text x="56" y="252"><tspan class="p">[marcel]</tspan><tspan x="192" class="b bd">mlb</tspan><tspan x="252" class="k">priors</tspan><tspan x="356" class="d">w </tspan><tspan class="w">5/4/3</tspan><tspan x="490" class="d">regress </tspan><tspan class="g">to mean</tspan><tspan x="700" class="k">fit</tspan><tspan x="736" class="g">ok</tspan></text></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="4.8s" fill="freeze"/>
-<text x="56" y="273"><tspan class="p">[monte-carlo]</tspan><tspan x="192" class="b">50,000</tspan><tspan class="d"> paths</tspan></text>
+<text x="56" y="273"><tspan class="p">[monte-carlo]</tspan><tspan x="192" class="b">50,000</tspan><tspan class="d"> seasons</tspan></text>
 <rect x="356" y="263" width="220" height="11" rx="2" fill="#141a24" stroke="#232e3c"/></g>
 <rect x="357" y="264" width="0" height="9" rx="1.5" fill="url(#barG)"><animate attributeName="width" values="0;218" begin="4.9s" dur="0.9s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".15s" begin="5.9s" fill="freeze"/>
@@ -90,13 +90,13 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 
 <rect x="40" y="281" width="874" height="20" fill="#00ff9c" opacity="0"><animate attributeName="opacity" values="0;.13;0" keyTimes="0;.25;1" dur="1s" begin="6.1s"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="6.1s" fill="freeze"/>
-<text x="56" y="294"><tspan class="g bd">close captured</tspan><tspan x="192" class="g">[ok]</tspan><tspan x="252" class="w">PIT ML +142</tspan><tspan x="390" class="d">vs sharp +118</tspan><tspan x="560" class="b bd">props 37% no close</tspan></text></g>
+<text x="56" y="294"><tspan class="g bd">board frozen</tspan><tspan x="192" class="g">[ok]</tspan><tspan x="252" class="w">props, 4 leagues</tspan><tspan x="430" class="d">vs sharp, power de-vig</tspan><tspan x="640" class="b bd">declined rows kept</tspan></text></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="6.6s" fill="freeze"/>
-<text x="56" y="315"><tspan class="g bd">hedge locked</tspan><tspan x="192" class="g">[ok]</tspan><tspan x="252" class="w">prediction mkt @ 0.47</tspan><tspan x="490" class="d">fee-aware</tspan><tspan x="610" class="b">&#916; risk 0.00</tspan></text></g>
+<text x="56" y="315"><tspan class="g bd">prereg look</tspan><tspan x="192" class="g">[locked]</tspan><tspan x="270" class="w">one look</tspan><tspan x="370" class="d">sample bar + kill rule set</tspan><tspan x="610" class="b">results unseen</tspan></text></g>
 
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="7s" fill="freeze"/>
-<text x="56" y="336"><tspan class="p">[kelly]</tspan><tspan x="192" class="w">0.25x fractional</tspan><tspan x="356" class="d">stake </tspan><tspan class="w">1.8u</tspan><tspan x="490" class="d">clv </tspan><tspan class="g bd">+1.57pp</tspan><tspan x="610" class="g">validated ok</tspan></text></g>
+<text x="56" y="336"><tspan class="p">[kelly]</tspan><tspan x="192" class="w">0.25x fractional</tspan><tspan x="356" class="d">stake </tspan><tspan class="w">1.8u</tspan><tspan x="490" class="d">shrunk for </tspan><tspan class="g bd">param uncertainty</tspan></text></g>
 
 <g opacity="0"><set attributeName="opacity" to="1" begin="7.4s"/>
 <text x="56" y="357"><tspan class="g">fox@edge</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="g">$</tspan></text></g>
@@ -107,12 +107,12 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <g>
 <animateTransform attributeName="transform" type="translate" values="0 380;0 359;0 338;0 317;0 296;0 275" calcMode="discrete" dur="10.8s" repeatCount="indefinite"/>
 <g id="lg">
-<text y="0"><tspan x="56" class="k">14:02:11</tspan><tspan x="140" class="p">[clv]</tspan><tspan x="228" class="d">PIT ML opened </tspan><tspan class="b">+142</tspan><tspan class="d"> closed </tspan><tspan class="b">+118</tspan><tspan class="g"> clv +1.57pp measured</tspan></text>
-<text y="21"><tspan x="56" class="k">14:02:13</tspan><tspan x="140" class="p">[scan]</tspan><tspan x="228" class="d">312 markets swept </tspan><tspan class="w">2 edges</tspan><tspan class="d"> 1 hedged </tspan><tspan class="g">live</tspan></text>
+<text y="0"><tspan x="56" class="k">14:02:11</tspan><tspan x="140" class="p">[close]</tspan><tspan x="228" class="d">sharp close captured </tspan><tspan class="b">power de-vig</tspan><tspan class="g"> graded vs close + result</tspan></text>
+<text y="21"><tspan x="56" class="k">14:02:13</tspan><tspan x="140" class="p">[scan]</tspan><tspan x="228" class="d">312 markets swept </tspan><tspan class="w">taken + declined</tspan><tspan class="d"> both stored </tspan><tspan class="g">ok</tspan></text>
 <text y="42"><tspan x="56" class="k">14:02:16</tspan><tspan x="140" class="p">[nhl]</tspan><tspan x="228" class="d">poisson refit ll </tspan><tspan class="w">-2.741</tspan><tspan class="d"> &#916; </tspan><tspan class="w">+0.003</tspan><tspan class="d"> converged</tspan></text>
-<text y="63"><tspan x="56" class="k">14:02:18</tspan><tspan x="140" class="p">[kelly]</tspan><tspan x="228" class="d">exposure </tspan><tspan class="w">4.2%</tspan><tspan class="d"> max-dd </tspan><tspan class="w">6.1%</tspan><tspan class="d"> bankroll </tspan><tspan class="g">ok</tspan></text>
-<text y="84"><tspan x="56" class="k">14:02:21</tspan><tspan x="140" class="p">[nba]</tspan><tspan x="228" class="d">dc &#961; drift </tspan><tspan class="w">-0.041 -&gt; -0.043</tspan><tspan class="d"> recalibrated</tspan></text>
-<text y="105"><tspan x="56" class="k">14:02:24</tspan><tspan x="140" class="p">[jarvis]</tspan><tspan x="228" class="d">"edge report ready" spoken </tspan><tspan class="b">local</tspan><tspan class="d"> 0 cloud calls</tspan></text>
+<text y="63"><tspan x="56" class="k">14:02:18</tspan><tspan x="140" class="p">[kelly]</tspan><tspan x="228" class="d">per-pick cap </tspan><tspan class="w">2%</tspan><tspan class="d"> correlated legs </tspan><tspan class="w">netted</tspan><tspan class="d"> sizing </tspan><tspan class="g">ok</tspan></text>
+<text y="84"><tspan x="56" class="k">14:02:21</tspan><tspan x="140" class="p">[guard]</tspan><tspan x="228" class="d">defect detectors </tspan><tspan class="w">armed</tspan><tspan class="d"> fail the build if a bug class returns</tspan></text>
+<text y="105"><tspan x="56" class="k">14:02:24</tspan><tspan x="140" class="p">[prereg]</tspan><tspan x="228" class="d">127 registered </tspan><tspan class="b">one look each</tspan><tspan class="d"> most null, all kept</tspan></text>
 </g>
 <use href="#lg" xlink:href="#lg" y="126"/>
 </g>
@@ -125,9 +125,9 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text x="69" y="499" text-anchor="middle" class="t bd" fill="#0d1117">quant</text>
 <text x="112" y="499" class="t g">0:scan*</text>
 <text x="182" y="499" class="t k">1:models</text>
-<text x="262" y="499" class="t k">2:jarvis</text>
-<text x="920" y="499" text-anchor="end" class="t fa"><tspan class="b">props 37% no close</tspan><tspan class="k"> | </tspan><tspan class="g">clv +1.57pp</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
-<text x="920" y="499" text-anchor="end" class="t fb" opacity="0"><tspan class="b">37% have no close</tspan><tspan class="k"> | </tspan><tspan class="g">max dd 6.1%</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+<text x="262" y="499" class="t k">2:prereg</text>
+<text x="920" y="499" text-anchor="end" class="t fa"><tspan class="b">127 preregs</tspan><tspan class="k"> | </tspan><tspan class="g">one look each</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+<text x="920" y="499" text-anchor="end" class="t fb" opacity="0"><tspan class="b">ruler = close</tspan><tspan class="k"> | </tspan><tspan class="g">declined rows kept</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
 
 <rect x="24" y="-130" width="912" height="120" fill="url(#scanG)"><animate attributeName="y" values="-120;530" dur="7s" repeatCount="indefinite"/></rect>
 <rect x="24" y="20" width="912" height="488" fill="url(#crt)" opacity=".08"/>
