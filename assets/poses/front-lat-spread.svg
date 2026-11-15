@@ -25,8 +25,8 @@
   <path pathLength="1" d="M204 268 C212 262 226 266 228 278 C230 290 220 296 208 292 C202 288 200 276 204 268 Z"/>
   <!-- lat wing behind the arm -->
   <path pathLength="1" d="M186 200 C176 212 170 224 168 238"/>
-  <!-- lat sweeping under the forearm into the waist -->
-  <path pathLength="1" d="M148 262 C150 286 176 302 206 308 C216 310 224 312 226 318 L250 322"/>
+  <!-- tight waist: from just under the fist straight down to the hip (the lats flare above, not below) -->
+  <path pathLength="1" d="M212 294 C216 302 220 310 224 318 L250 322"/>
   <!-- pec -->
   <path pathLength="1" d="M198 160 C204 188 224 200 250 200"/>
   <!-- serratus -->
