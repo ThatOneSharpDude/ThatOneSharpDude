@@ -115,37 +115,37 @@ A system that grades itself with data it produced can fail in ways its own outpu
 <sub>Bodybuilder. The mandatory poses, each drawn in code, each paired with a line from someone who owned it. Click a pose.</sub>
 
 <details open>
-<summary><code>[1/8] front double biceps</code> · Robby Robinson</summary>
+<summary><code>[1/6] front double biceps</code> · Robby Robinson</summary>
 <br>
 <img src="assets/poses/front-double-biceps.svg" width="100%" alt="Neon line-art bodybuilder hitting a front double biceps, with a quote from Robby Robinson">
 </details>
 
 <details>
-<summary><code>[2/8] front lat spread</code> · Phil Heath</summary>
+<summary><code>[2/6] front lat spread</code> · Phil Heath</summary>
 <br>
 <img src="assets/poses/front-lat-spread.svg" width="100%" alt="Neon line-art bodybuilder hitting a front lat spread, with a quote from Phil Heath">
 </details>
 
 <details>
-<summary><code>[4/8] back double biceps</code> · Dorian Yates</summary>
+<summary><code>[3/6] back double biceps</code> · Dorian Yates</summary>
 <br>
 <img src="assets/poses/back-double-biceps.svg" width="100%" alt="Neon line-art bodybuilder hitting a back double biceps, with a quote from Dorian Yates">
 </details>
 
 <details>
-<summary><code>[5/8] back lat spread</code> · Lee Haney</summary>
+<summary><code>[4/6] back lat spread</code> · Lee Haney</summary>
 <br>
 <img src="assets/poses/back-lat-spread.svg" width="100%" alt="Neon line-art bodybuilder hitting a back lat spread, with a quote from Lee Haney">
 </details>
 
 <details>
-<summary><code>[7/8] abs and thigh</code> · Rubiel “Neckzilla” Mosquera</summary>
+<summary><code>[5/6] abs and thigh</code> · Rubiel “Neckzilla” Mosquera</summary>
 <br>
 <img src="assets/poses/abs-and-thigh.svg" width="100%" alt="Neon line-art bodybuilder hitting a abs and thigh, with a quote from Rubiel “Neckzilla” Mosquera">
 </details>
 
 <details>
-<summary><code>[8/8] most muscular</code> · Markus Rühl</summary>
+<summary><code>[6/6] most muscular</code> · Markus Rühl</summary>
 <br>
 <img src="assets/poses/most-muscular.svg" width="100%" alt="Neon line-art bodybuilder hitting a most muscular, with a quote from Markus Rühl">
 </details>

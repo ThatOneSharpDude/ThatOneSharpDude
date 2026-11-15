@@ -103,7 +103,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
   <text x="540" y="186"><tspan class="k">pose</tspan><tspan x="612" class="b">back double biceps</tspan></text>
 </g>
 <g class="in" style="animation-delay:4.8s">
-  <text x="540" y="210"><tspan class="g">[4/8]</tspan><tspan x="612" class="k">mandatories</tspan></text>
+  <text x="540" y="210"><tspan class="g">[3/6]</tspan><tspan x="612" class="k">mandatories</tspan></text>
 </g>
 <g class="in" style="animation-delay:5.2s">
   <text x="520" y="252"><tspan class="g bd">$</tspan><tspan class="w"> cat quote.txt</tspan></text>
