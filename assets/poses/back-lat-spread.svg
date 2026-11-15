@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 520" width="960" height="520" role="img" aria-label="Terminal window: ./pose --back-lat-spread draws a neon line-art bodybuilder hitting a back lat spread, then cat ~/.gym/pose prints the pose name and its place in the mandatories (5 of 8), then a quote.">
+<title>fox@edge :: ./pose --back-lat-spread</title>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cmd"><rect x="44" y="52" width="0" height="20"><animate attributeName="width" values="0;40;80;120;160;200;240;280;320" calcMode="discrete" begin="0.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="540" y="274" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="5.4s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="540" y="298" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="6.5s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="q3"><rect x="540" y="322" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="7.6s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<!-- left half of the figure; the right half is the same paths mirrored about x = 250 -->
+<g id="half" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- traps -->
+  <path pathLength="1" d="M240 120 C228 126 212 130 194 140"/>
+  <path pathLength="1" d="M238 128 C222 150 226 186 250 228"/>
+  <!-- rear delt -->
+  <path pathLength="1" d="M194 140 C174 138 160 152 158 170 C157 184 164 194 172 198"/>
+  <!-- upper arm to the elbow -->
+  <path pathLength="1" d="M160 176 C146 198 134 222 126 246"/>
+  <path pathLength="1" d="M126 246 C122 258 128 266 138 266"/>
+  <!-- forearm under the lat back to the waist -->
+  <path pathLength="1" d="M138 266 C158 280 180 292 204 300"/>
+  <!-- hand on the waist -->
+  <path pathLength="1" d="M204 296 C210 290 222 292 224 302 C224 310 214 312 208 308"/>
+  <!-- lats spread wide -->
+  <path pathLength="1" d="M182 194 C158 208 140 226 140 246 C142 266 180 286 214 296"/>
+  <!-- infraspinatus / teres -->
+  <path pathLength="1" d="M200 162 C206 178 218 190 236 196"/>
+  <path pathLength="1" d="M184 194 C198 206 212 212 228 214"/>
+  <!-- lower lat border into the erectors -->
+  <path pathLength="1" d="M206 214 C214 234 226 250 240 258"/>
+  <!-- spinal erectors -->
+  <path pathLength="1" d="M242 236 C238 258 238 280 242 302"/>
+  <!-- christmas tree -->
+  <path pathLength="1" d="M248 252 l-8 7 M248 266 l-12 10 M248 280 l-16 13"/>
+  <!-- glutes -->
+  <path pathLength="1" d="M206 346 C216 362 238 368 250 358"/>
+  <path pathLength="1" d="M250 314 L250 358"/>
+</g>
+</defs>
+<style>
+text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:14px;fill:#8b949e}
+.g{fill:#00ff9c}.b{fill:#00b4ff}.p{fill:#a87fff}.w{fill:#e6edf3}.k{fill:#525e70}.bd{font-weight:bold}
+#half path,.solo path{stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 3.2s cubic-bezier(.45,.05,.3,1) .9s forwards}
+.det path{stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 1.4s ease-out 2.6s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.fig{animation:breathe 3.6s ease-in-out 4.4s infinite}
+@keyframes breathe{0%,100%{opacity:1}50%{opacity:.72}}
+.in{opacity:0;animation:fadein .35s ease-out forwards}
+@keyframes fadein{to{opacity:1}}
+.blink{animation:bl 1.12s steps(1,end) infinite}
+@keyframes bl{0%,55%{opacity:1}56%,100%{opacity:0}}
+</style>
+<rect width="960" height="520" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="959" height="519" rx="10" fill="#0a0d13" stroke="#1f2733"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/><circle cx="42" cy="20" r="6" fill="#ffbd2e"/><circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="480" y="25" text-anchor="middle" class="k" font-size="12.5">fox@edge: ~/gym</text>
+<line x1="1" y1="38" x2="959" y2="38" stroke="#1f2733"/>
+
+<text x="24" y="67"><tspan class="g bd">$</tspan></text>
+<g clip-path="url(#cmd)"><text x="44" y="67"><tspan class="w">./pose</tspan><tspan class="b"> --back-lat-spread</tspan></text></g>
+
+<!-- the figure -->
+<g transform="translate(58 66) scale(0.86)">
+  <g class="fig" filter="url(#glow)">
+    <ellipse cx="250" cy="94" rx="20" ry="24" fill="none" stroke="#00ff9c" stroke-width="2.4" pathLength="1" style="stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 1.2s ease-out .9s forwards"/>
+    <use href="#half" xlink:href="#half" stroke="#00ff9c" stroke-width="2.4"/>
+    <use href="#half" xlink:href="#half" stroke="#00ff9c" stroke-width="2.4" transform="translate(500 0) scale(-1 1)"/>
+    <g class="solo" fill="none" stroke="#00ff9c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path pathLength="1" d="M226 300 C214 318 204 344 200 372 C198 396 206 422 214 440"/>
+      <path pathLength="1" d="M248 364 C246 390 240 414 234 440"/>
+      <path pathLength="1" d="M222 374 C220 394 222 414 226 436"/>
+      <!-- calf flexed, heel up -->
+      <path pathLength="1" d="M214 440 C204 448 199 458 199 468 C199 478 206 484 212 490 C215 494 216 500 216 504"/>
+      <path pathLength="1" d="M234 440 C246 448 251 460 251 470 C251 480 242 488 234 492 C230 495 228 500 228 504"/>
+      <path pathLength="1" d="M222 488 C220 476 220 462 225 450"/>
+      <path pathLength="1" d="M216 504 C217 509 227 509 228 504"/>
+    </g>
+    <g class="solo" fill="none" stroke="#00ff9c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(500 0) scale(-1 1)">
+      <path pathLength="1" d="M226 300 C214 318 204 344 200 372 C198 396 206 422 214 440"/>
+      <path pathLength="1" d="M248 364 C246 390 240 414 234 440"/>
+      <path pathLength="1" d="M222 374 C220 394 222 414 226 436"/>
+      <path pathLength="1" d="M216 440 C222 444 230 444 234 440"/>
+      <path pathLength="1" d="M214 442 C202 458 204 482 212 500 L214 512"/>
+      <path pathLength="1" d="M234 442 C244 460 240 484 230 502 L228 512"/>
+      <path pathLength="1" d="M222 450 C221 462 222 474 224 482"/>
+    </g>
+    <g class="det" fill="none" stroke="#00b4ff" stroke-width="1.6" stroke-linecap="round">
+      <path pathLength="1" d="M250 124 L250 300"/>
+    </g>
+  </g>
+  <!-- stage line -->
+  <line x1="150" y1="514" x2="350" y2="514" stroke="#7b2ff7" stroke-width="2" class="in" style="animation-delay:3.9s"/>
+</g>
+
+<!-- readout -->
+<g class="in" style="animation-delay:4.3s">
+  <text x="520" y="150"><tspan class="g bd">$</tspan><tspan class="w"> cat ~/.gym/pose</tspan></text>
+</g>
+<g class="in" style="animation-delay:4.6s">
+  <text x="540" y="186"><tspan class="k">pose</tspan><tspan x="612" class="b">back lat spread</tspan></text>
+</g>
+<g class="in" style="animation-delay:4.8s">
+  <text x="540" y="210"><tspan class="g">[5/8]</tspan><tspan x="612" class="k">mandatories</tspan></text>
+</g>
+<g class="in" style="animation-delay:5.2s">
+  <text x="520" y="252"><tspan class="g bd">$</tspan><tspan class="w"> cat quote.txt</tspan></text>
+</g>
+<g clip-path="url(#q1)"><text x="540" y="288" class="w" font-size="15">“I really attribute my back development to</text></g>
+<g clip-path="url(#q2)"><text x="549" y="312" class="w" font-size="15">following the routines of Robby and Roy</text></g>
+<g clip-path="url(#q3)"><text x="549" y="336" class="w" font-size="15">Callender.”</text></g>
+<g class="in" style="animation-delay:8.7s">
+  <text x="556" y="364" class="p">— Lee Haney · NPC News, 2013</text>
+</g>
+<g class="in" style="animation-delay:9.3s">
+  <text x="520" y="410"><tspan class="g bd">$</tspan><tspan class="g blink" font-size="18"> █</tspan></text>
+</g>
+</svg>

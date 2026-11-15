@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 520" width="960" height="520" role="img" aria-label="Terminal window: ./pose --most-muscular draws a neon line-art bodybuilder hitting a most muscular, then cat ~/.gym/pose prints the pose name and its place in the mandatories (8 of 8), then a quote.">
+<title>fox@edge :: ./pose --most-muscular</title>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cmd"><rect x="44" y="52" width="0" height="20"><animate attributeName="width" values="0;40;80;120;160;200;240;280;320" calcMode="discrete" begin="0.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="540" y="274" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="5.4s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="540" y="298" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="6.5s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="q3"><rect x="540" y="322" width="0" height="20"><animate attributeName="width" values="0;47;93;140;187;233;280;327;373;420" calcMode="discrete" begin="7.6s" dur="1.0s" fill="freeze"/></rect></clipPath>
+<!-- left half of the figure; the right half is the same paths mirrored about x = 250 -->
+<g id="half" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- traps bunched up to the ears -->
+  <path pathLength="1" d="M238 112 C226 112 204 124 186 146"/>
+  <path pathLength="1" d="M242 118 L246 136"/>
+  <!-- delt rolled forward -->
+  <path pathLength="1" d="M186 146 C166 142 150 158 150 180"/>
+  <!-- upper arm down to the elbow -->
+  <path pathLength="1" d="M150 180 C144 206 146 236 158 256"/>
+  <!-- elbow -->
+  <path pathLength="1" d="M158 256 C164 268 178 272 190 266"/>
+  <!-- biceps -->
+  <path pathLength="1" d="M172 192 C190 200 198 222 190 246"/>
+  <!-- forearm in to the fists -->
+  <path pathLength="1" d="M190 246 C204 256 218 266 232 274"/>
+  <path pathLength="1" d="M190 266 C206 280 220 292 232 300"/>
+  <!-- fists together at the navel -->
+  <path pathLength="1" d="M232 272 C238 268 248 268 250 270 L250 302 C246 306 236 306 232 300 C228 292 228 280 232 272 Z"/>
+  <path pathLength="1" d="M238 284 C242 282 246 282 250 284"/>
+  <!-- pec squeezed -->
+  <path pathLength="1" d="M188 166 C196 190 222 200 250 200"/>
+  <path pathLength="1" d="M206 178 C214 188 230 194 246 194"/>
+  <!-- abs -->
+  <path pathLength="1" d="M250 206 C240 206 236 210 236 220 C236 228 242 230 250 230"/>
+  <path pathLength="1" d="M250 236 C240 236 237 240 237 250 C237 258 242 260 250 260"/>
+  <!-- waist into the trunks -->
+  <path pathLength="1" d="M214 296 C220 306 224 312 226 318 L250 322"/>
+  <!-- quad sweep -->
+  <path pathLength="1" d="M226 318 C202 334 192 366 198 396 C202 414 210 426 214 440"/>
+  <path pathLength="1" d="M248 324 C246 356 240 392 234 440"/>
+  <!-- teardrop -->
+  <path pathLength="1" d="M236 404 C230 418 228 428 232 436"/>
+  <!-- calf -->
+  <path pathLength="1" d="M214 440 C204 458 204 480 212 500 L216 506"/>
+  <path pathLength="1" d="M234 440 C240 462 236 486 230 506"/>
+</g>
+</defs>
+<style>
+text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:14px;fill:#8b949e}
+.g{fill:#00ff9c}.b{fill:#00b4ff}.p{fill:#a87fff}.w{fill:#e6edf3}.k{fill:#525e70}.bd{font-weight:bold}
+#half path,.solo path{stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 3.2s cubic-bezier(.45,.05,.3,1) .9s forwards}
+.det path{stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 1.4s ease-out 2.6s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.fig{animation:breathe 3.6s ease-in-out 4.4s infinite}
+@keyframes breathe{0%,100%{opacity:1}50%{opacity:.72}}
+.in{opacity:0;animation:fadein .35s ease-out forwards}
+@keyframes fadein{to{opacity:1}}
+.blink{animation:bl 1.12s steps(1,end) infinite}
+@keyframes bl{0%,55%{opacity:1}56%,100%{opacity:0}}
+</style>
+<rect width="960" height="520" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="959" height="519" rx="10" fill="#0a0d13" stroke="#1f2733"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/><circle cx="42" cy="20" r="6" fill="#ffbd2e"/><circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="480" y="25" text-anchor="middle" class="k" font-size="12.5">fox@edge: ~/gym</text>
+<line x1="1" y1="38" x2="959" y2="38" stroke="#1f2733"/>
+
+<text x="24" y="67"><tspan class="g bd">$</tspan></text>
+<g clip-path="url(#cmd)"><text x="44" y="67"><tspan class="w">./pose</tspan><tspan class="b"> --most-muscular</tspan></text></g>
+
+<!-- the figure -->
+<g transform="translate(58 66) scale(0.86)">
+  <g class="fig" filter="url(#glow)">
+    <ellipse cx="250" cy="98" rx="20" ry="24" fill="none" stroke="#00ff9c" stroke-width="2.4" pathLength="1" style="stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 1.2s ease-out .9s forwards"/>
+    <use href="#half" xlink:href="#half" stroke="#00ff9c" stroke-width="2.4"/>
+    <use href="#half" xlink:href="#half" stroke="#00ff9c" stroke-width="2.4" transform="translate(500 0) scale(-1 1)"/>
+    <g class="det" fill="none" stroke="#00b4ff" stroke-width="1.6" stroke-linecap="round">
+      <path pathLength="1" d="M250 202 L250 260"/>
+    </g>
+  </g>
+  <!-- stage line -->
+  <line x1="150" y1="514" x2="350" y2="514" stroke="#7b2ff7" stroke-width="2" class="in" style="animation-delay:3.9s"/>
+</g>
+
+<!-- readout -->
+<g class="in" style="animation-delay:4.3s">
+  <text x="520" y="150"><tspan class="g bd">$</tspan><tspan class="w"> cat ~/.gym/pose</tspan></text>
+</g>
+<g class="in" style="animation-delay:4.6s">
+  <text x="540" y="186"><tspan class="k">pose</tspan><tspan x="612" class="b">most muscular</tspan></text>
+</g>
+<g class="in" style="animation-delay:4.8s">
+  <text x="540" y="210"><tspan class="g">[8/8]</tspan><tspan x="612" class="k">mandatories</tspan></text>
+</g>
+<g class="in" style="animation-delay:5.2s">
+  <text x="520" y="252"><tspan class="g bd">$</tspan><tspan class="w"> cat quote.txt</tspan></text>
+</g>
+<g clip-path="url(#q1)"><text x="540" y="288" class="w" font-size="15">“Better 70 years of a fulfilled life than 100</text></g>
+<g clip-path="url(#q2)"><text x="549" y="312" class="w" font-size="15">and vegetating the last 30 years.”</text></g>
+<g clip-path="url(#q3)"><text x="549" y="336" class="w" font-size="15"></text></g>
+<g class="in" style="animation-delay:8.7s">
+  <text x="556" y="364" class="p">— Markus Rühl · 2022, translated</text>
+</g>
+<g class="in" style="animation-delay:9.3s">
+  <text x="520" y="410"><tspan class="g bd">$</tspan><tspan class="g blink" font-size="18"> █</tspan></text>
+</g>
+</svg>
