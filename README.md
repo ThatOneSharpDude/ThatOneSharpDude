@@ -150,6 +150,14 @@ A system that grades itself with data it produced can fail in ways its own outpu
 <img src="assets/poses/most-muscular.svg" width="100%" alt="Neon line-art bodybuilder hitting a most muscular, with a quote from Markus Rühl">
 </details>
 
+## `fox@edge:~$ ./arcade`
+
+<sub>Seven small games in one HTML file, no libraries: make a market, fair price, the Kelly coin, four in a row, unbeatable tic-tac-toe, mines, and a powerlifting meet day. Click to play.</sub>
+
+<p align="center">
+  <a href="https://thatonesharpdude.github.io/arcade/"><img src="assets/arcade.png" width="640" alt="The arcade page: a terminal window listing seven games, with a four-in-a-row board in play"></a>
+</p>
+
 <br>
 
 <div align="center">
