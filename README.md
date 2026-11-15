@@ -14,7 +14,7 @@
 
 ## `fox@edge:~$ whoami`
 
-**Fox Camann.** Business Analytics at the University of Denver (Daniels, 4+1 MS). I do quantitative research on sports betting and prediction markets, build automation for a construction firm, and founded SF Strategies.
+**Fox Camann.** Business Analytics at the University of Denver (Daniels, 4+1 MS). I do quantitative research on sports betting and prediction markets, and founded SF Strategies.
 
 I price player props across four leagues, grade every forecast against the de-vigged closing price *and* the result, and treat my own numbers as suspects until a pre-registered test clears them.
 
@@ -28,14 +28,14 @@ I price player props across four leagues, grade every forecast against the de-vi
 
 ## `fox@edge:~$ htop -u fox`
 
-<img src="assets/htop.svg" width="100%" alt="Process monitor: the research system, the pre-registration runner, StateEdge and client automations running as processes, a cumulative count of pre-registered tests, and a promo-hedge depth ladder">
+<img src="assets/htop.svg" width="100%" alt="Process monitor: the research system, the pre-registration runner, StateEdge and the devig library running as processes, a cumulative count of pre-registered tests, and a promo-hedge depth ladder">
 
 | process | state | what it runs |
 |:--|:--|:--|
 | **research-system** | running | Daily pipeline pricing NHL, NBA, MLB and WNBA player props from free public data. 1,000+ Python modules, ~1,000 test files, 100+ health checks. Private. |
-| **prereg** | 127 registered | Exploratory study, then a frozen spec: one forward look, fixed sample bar, held-out window, kill rule. Most come back null and stay on file. |
+| **prereg** | 130 registered | Exploratory study, then a frozen spec: one forward look, fixed sample bar, held-out window, kill rule. Most come back null and stay on file. The framework is open source: **[prereg](https://github.com/ThatOneSharpDude/prereg)** (hash-pinned specs, one-look enforcement, anytime-valid confidence sequences, a trial ledger for the multiple-testing count). |
+| **[devig](https://github.com/ThatOneSharpDude/devig)** | open source | Removes the bookmaker margin from any 2-way or n-way market: proportional, additive, power, Shin and odds-ratio methods. Pure Python, typed, tested. |
 | **[stateedge](https://project-szpu4.vercel.app)** | live | SF Strategies. Tracks US sportsbook promotions by state and computes the fee-aware hedge on a prediction-market exchange. Next.js, Supabase, Stripe. |
-| **client-automations** | running | Subcontractor reminders at T-72h and T-24h, meeting notes routed to the attendees detected. DigitalOcean. |
 
 ## `fox@edge:~$ cat pipeline.mmd`
 
@@ -108,7 +108,7 @@ A system that grades itself with data it produced can fail in ways its own outpu
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,tailwind,supabase,postgres,vercel,git&theme=dark&perline=11" alt="Python, TypeScript, JavaScript, React, Next.js, Node, Tailwind, Supabase, Postgres, Vercel, Git">
 </p>
-<p align="center"><sub>pandas · numpy · pytest · stripe · digitalocean · kalshi</sub></p>
+<p align="center"><sub>pandas · numpy · pytest · stripe · kalshi</sub></p>
 
 <br>
 

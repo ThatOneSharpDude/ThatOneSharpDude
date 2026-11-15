@@ -112,7 +112,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text y="42"><tspan x="56" class="k">14:02:16</tspan><tspan x="140" class="p">[nhl]</tspan><tspan x="228" class="d">poisson refit ll </tspan><tspan class="w">-2.741</tspan><tspan class="d"> &#916; </tspan><tspan class="w">+0.003</tspan><tspan class="d"> converged</tspan></text>
 <text y="63"><tspan x="56" class="k">14:02:18</tspan><tspan x="140" class="p">[kelly]</tspan><tspan x="228" class="d">per-pick cap </tspan><tspan class="w">2%</tspan><tspan class="d"> correlated legs </tspan><tspan class="w">netted</tspan><tspan class="d"> sizing </tspan><tspan class="g">ok</tspan></text>
 <text y="84"><tspan x="56" class="k">14:02:21</tspan><tspan x="140" class="p">[guard]</tspan><tspan x="228" class="d">defect detectors </tspan><tspan class="w">armed</tspan><tspan class="d"> fail the build if a bug class returns</tspan></text>
-<text y="105"><tspan x="56" class="k">14:02:24</tspan><tspan x="140" class="p">[prereg]</tspan><tspan x="228" class="d">127 registered </tspan><tspan class="b">one look each</tspan><tspan class="d"> most null, all kept</tspan></text>
+<text y="105"><tspan x="56" class="k">14:02:24</tspan><tspan x="140" class="p">[prereg]</tspan><tspan x="228" class="d">130 registered </tspan><tspan class="b">one look each</tspan><tspan class="d"> most null, all kept</tspan></text>
 </g>
 <use href="#lg" xlink:href="#lg" y="126"/>
 </g>
@@ -126,7 +126,7 @@ text{font-family:ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',
 <text x="112" y="499" class="t g">0:scan*</text>
 <text x="182" y="499" class="t k">1:models</text>
 <text x="262" y="499" class="t k">2:prereg</text>
-<text x="920" y="499" text-anchor="end" class="t fa"><tspan class="b">127 preregs</tspan><tspan class="k"> | </tspan><tspan class="g">one look each</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
+<text x="920" y="499" text-anchor="end" class="t fa"><tspan class="b">130 preregs</tspan><tspan class="k"> | </tspan><tspan class="g">one look each</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
 <text x="920" y="499" text-anchor="end" class="t fb" opacity="0"><tspan class="b">ruler = close</tspan><tspan class="k"> | </tspan><tspan class="g">declined rows kept</tspan><tspan class="k"> | </tspan><tspan class="g dot">&#9679;</tspan><tspan class="g bd"> LIVE</tspan></text>
 
 <rect x="24" y="-130" width="912" height="120" fill="url(#scanG)"><animate attributeName="y" values="-120;530" dur="7s" repeatCount="indefinite"/></rect>
