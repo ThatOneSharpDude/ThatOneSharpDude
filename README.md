@@ -152,10 +152,10 @@ A system that grades itself with data it produced can fail in ways its own outpu
 
 ## `fox@edge:~$ ./arcade`
 
-<sub>Seven small games in one HTML file, no libraries: make a market, fair price, the Kelly coin, four in a row, unbeatable tic-tac-toe, mines, and a powerlifting meet day. Click to play.</sub>
+<sub>Fourteen small games in one HTML file, no libraries. Trading drills (make a market, fair price, the Kelly coin, poker pot odds, card counting), brain games (four in a row, unbeatable tic-tac-toe, mines, chess vision) and sports (powerlifting meet day, PR chase, shootout, home run derby, free throws). Click to play.</sub>
 
 <p align="center">
-  <a href="https://thatonesharpdude.github.io/arcade/"><img src="assets/arcade.png" width="640" alt="The arcade page: a terminal window listing seven games, with a four-in-a-row board in play"></a>
+  <a href="https://thatonesharpdude.github.io/arcade/"><img src="assets/arcade.png" width="640" alt="The arcade page: a terminal window listing fourteen games in trade, brain and sport groups, with a four-in-a-row board in play"></a>
 </p>
 
 <br>
