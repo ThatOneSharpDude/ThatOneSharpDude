@@ -14,7 +14,7 @@
 
 ## `fox@edge:~$ whoami`
 
-**Fox Camann.** Business Analytics at the University of Denver (Daniels, 4+1 MS). I do quantitative research on sports betting and prediction markets, and founded SF Strategies.
+**Fox Camann.** Business Analytics at the University of Denver (Daniels, 4+1 MS). I build models for sports betting and prediction markets, and founded SF Strategies.
 
 I price player props across four leagues, grade every forecast against the de-vigged closing price *and* the result, and treat my own numbers as suspects until a pre-registered test clears them.
 
